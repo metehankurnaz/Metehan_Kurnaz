@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    background-color: black;
+}
+
+#slider {
+    height: 600px;
+}
+
+.slider-font {
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#card {
+    height: 600px;
+    width: 400px;
+    cursor: pointer;
+}
+
+#card-font {
+    color: rgb(239, 6, 247);
+    font-weight: bolder;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration:underline;
+}
