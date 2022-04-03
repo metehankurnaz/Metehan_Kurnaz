@@ -1,5 +1,5 @@
 # Metehan_Kurnaz
---Web07 PROJELER--
-1.Sinema Sitesi Bitirildi.
-2.İnşaat Sitesi Bitirildi.
+--Web07 PROJELER-- <br>
+1.Sinema Sitesi Bitirildi. <br>
+2.İnşaat Sitesi Bitirildi. <br>
 3.Blog Sitesi Devam Etmekte.
