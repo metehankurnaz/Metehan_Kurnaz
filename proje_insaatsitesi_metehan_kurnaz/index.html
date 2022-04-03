@@ -2,65 +2,65 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <title>MeteINSAAT</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Mete İnşaat</title>
 </head>
 
 <body>
-    <div class="topnav">
-  <a class="active" href="#"><i class="fa-solid fa-hammer"></i>   Mete İnşaat</a>
-  <a href="#">ANASAYFA</a>
-  <a href="#">KURUMSAL</a>
-  <div class="dropdown">
-      <button></button>
-      <div class="dropdown-content">
-          <a href="#">Link-1</a>
-          <a href="#">Link-2</a>
-          <a href="#">Link-3</a>
+  <nav>
+    <div class="navbar">
+      <a href="#" style="font-weight: bold; background-color: rgb(15, 124, 1);"><i class="fa-solid fa-hammer"></i> Mete
+        İnşaat</a>
+      <a href="#">ANASAYFA</a>
+      <a href="#">KURUMSAL</a>
+      <div class="dropdown">
+        <button class="dropbtn">PROJELERİMİZ
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Bina-Tesis</a>
+          <a href="#">Karayolu ve Köprü</a>
+          <a href="#">Havalimanı</a>
+        </div>
       </div>
+      <a href="#">İLETİŞİM</a>
+    </div>
+  </nav>
+  <header>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img
+          src="https://media-exp1.licdn.com/dms/image/C4E1BAQGgw3Rq7kjm7Q/company-background_10000/0/1612371818005?e=2147483647&v=beta&t=RzQvr2atk7r-LL8qH-MRcIObr6Oo9L98GOgKhi-1m7Q"
+          style="width: 1920px;" height="600px">
+      </div>
+      <div class="mySlides fade">
+        <img src="https://bus-ex.com/sites/default/files/2022-01/small%201.png" style="width: 1920px;" height="600px">
+      </div>
+      <div class="mySlides fade">
+        <img src="https://icdn.ensonhaber.com/resimler/diger/kok/2021/09/09/istanbul-havalimani-anket_8910.jpg"
+          style="width: 1920px;" height="600px">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  </header>
+  <div class="projeler-container">
+    <div class="projelerimiz">
+      <h2>PROJELERİMİZ</h2>
+    </div>
   </div>
-  <a href="#">İLETİŞİM</a>
-</div>
-
-<!-- Slideshow container -->
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <img src="https://www.veligrup.com.tr/theme/vg/img/veli/insaat-slider-5.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="https://media-exp1.licdn.com/dms/image/C4E1BAQGgw3Rq7kjm7Q/company-background_10000/0/1612371818005?e=2147483647&v=beta&t=RzQvr2atk7r-LL8qH-MRcIObr6Oo9L98GOgKhi-1m7Q" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="https://i4.hurimg.com/i/hurriyet/75/1200x675/5c3a3cbdc03c0e0fa46e89da.jpg" style="width:100%">
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
 
 
 
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
