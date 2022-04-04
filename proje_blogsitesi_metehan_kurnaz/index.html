@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Blog Sitesi</title>
 </head>
@@ -14,19 +15,56 @@
         <a style="font-weight: bold; font-size: 30px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"
             href="#">Wissen Akademie</a>
         <div style="margin-top: 13px; float: right;">
-            <a href="#">ANASAYFA</a>
-            <a href="#">HTML</a>
-            <a href="#">CSS</a>
-            <a href="#">BOOTSTRAP</a>
-            <a href="#">JAVASCRIPT</a>
-            <a href="#">JQUERY</a>
-            <a href="#">HAKKIMDA</a>
-            <a href="#">İLETİŞİM</a>
+            <a class="active" href="#">ANASAYFA</a>
+            <a href="#html">HTML</a>
+            <a href="/proje_blogsitesi_metehan_kurnaz/css.html">CSS</a>
+            <a href="#bootstrap">BOOTSTRAP</a>
+            <a href="#javascript">JAVASCRIPT</a>
+            <a href="#jquery">JQUERY</a>
+            <a href="#hakkimda">HAKKIMDA</a>
+            <a href="#iletisim">İLETİŞİM</a>
         </div>
     </div>
-    
+
     <section class="main-section">
 
+    </section>
+    <section class="content-section">
+        <div class="content" id="html">
+            <h3 class="content-header">HTML</h3>
+            <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, eius!</p>
+        </div>
+        <div class="content" id="css">
+            <h3 class="content-header">CSS</h3>
+            <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, eius!</p>
+        </div>
+        <div class="content" id="bootstrap">
+            <h3 class="content-header">BOOTSTRAP</h3>
+            <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, eius!</p>
+        </div>
+        <div class="content" id="javascript">
+            <h3 class="content-header">JAVASCRIPT</h3>
+            <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, eius!</p>
+        </div>
+        <div class="content" id="jquery">
+            <h3 class="content-header">JQUERY</h3>
+            <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, eius!</p>
+        </div>
+        <div class="content" id="hakkimda">
+            <h3 class="content-header">HAKKIMDA</h3>
+            <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, eius!</p>
+        </div>
+        <div class="content" id="iletisim">
+            <h3 class="content-header">İLETİŞİM</h3>
+            <form class="form">
+                <div style="font-size: 2em; font-weight: bold;">İletişim Formu</div>
+                <div style="color: grey;">Bana ulaşmak için lütfen formu doldurunuz.</div>
+                <input type="text" class="input formEntry" placeholder="Ad Soyad">
+                <input type="text" class="input formEntry" placeholder="Email">
+                <textarea class="message formEntry" placeholder="Mesajınızı giriniz."></textarea>
+                <button class="submit formEntry">Gönder</button>
+            </form>
+        </div>
     </section>
 
     <script src="script.js"></script>
