@@ -1,5 +1,6 @@
 # Metehan Kurnaz
---Web07 PROJELER-- <br>
-1.Sinema Sitesi Bitirildi. <br>
-2.İnşaat Sitesi Bitirildi. <br>
-3.Blog Sitesi Devam Etmekte.
+--Web07 PROJELER--
+<li>Sinema Sitesi Bitirildi.</li>
+<li>İnşaat Sitesi Bitirildi.</li>
+<li>Blog Sitesi Devam Etmekte.</li>
+<li>MVC kullanılarak Active Navbar yapıldı.</li>
