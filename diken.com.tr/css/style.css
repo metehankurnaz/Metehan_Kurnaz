@@ -42,23 +42,24 @@ div {
 }
 .site-inner{
     background-color: #fff;
-    width: 1138px;
+    width: 1106px;
     height: 0px;
     display: table;
     content: "";
 }
 .sidebar {
     float: right;
-    width: 360px;
+    width: 330px;
 }
 .home-middle{
     display: block;
     flex-direction: row;
+    height: 3770px;
 }
 .home-middle-left{
     float: left;
     width: 388px;
-    height: 3483px;
+    height: 3490px;
 
 }
 .home-middle-right{
@@ -70,6 +71,11 @@ div {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 20px;
+}
+.card-2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
 }
 article {
     width: 776px;
