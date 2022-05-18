@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iYCMqTmTetQdcvM+Ka7r9T2GHGzXuXqdSEH2ve5jmG/N17CrsgTP19c8nTjVu0LqyuehN8oohaODLPaFL5ftXA==",
+  "dgSpecHash": "LLaih4n7mMHT3v+bOLaNHY6LGsnh5YegQ4M6778qtIkClpvjzC1m/4yNf4kHpyxtjWPj8x6pXsFLPvg4o+VeiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Projects\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
+  "projectFilePath": "C:\\Users\\Web ve Mobil Öğle\\Documents\\GitHub\\Projects\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Web ve Mobil Öğle\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Web ve Mobil Öğle\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

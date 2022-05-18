@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Projects\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Web ve Mobil Öğle\\Documents\\GitHub\\Projects\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
       "projectName": "BusTicketReservation.Business",
-      "projectPath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Projects\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
+      "projectPath": "C:\\Users\\Web ve Mobil Öğle\\Documents\\GitHub\\Projects\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
       "packagesPath": "C:\\Users\\Web ve Mobil Öğle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Web ve Mobil Öğle\\source\\repos\\Projects\\BusTicketReservation\\BusTicketReservation.Business\\obj\\",
+      "outputPath": "C:\\Users\\Web ve Mobil Öğle\\Documents\\GitHub\\Projects\\BusTicketReservation\\BusTicketReservation.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Web ve Mobil Öğle\\AppData\\Roaming\\NuGet\\NuGet.Config",
