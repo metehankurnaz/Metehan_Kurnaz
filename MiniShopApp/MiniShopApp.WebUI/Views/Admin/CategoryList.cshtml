@@ -1,0 +1,38 @@
+﻿@model List<Category>
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h4 class="display-4">Category List</h4>
+        <hr />
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th>Category ID</th>
+                    <th>Category Name</th>
+                    <th>Category Description</th>
+                    <th>Category URL</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var category in Model)
+                {
+                    <tr>
+                        <td>@category.CategoryId</td>
+                        <td>@category.Name</td>
+                        <td>@category.Description</td>
+                        <td>@category.Url</td>
+                        <td>
+                            <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                            <form>
+                                <input type="hidden" name="categoryId" value="@category.CategoryId" />
+                                <button type="submit" class="btn btn-sm btn-danger"></button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
