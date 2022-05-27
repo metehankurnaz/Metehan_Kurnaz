@@ -1095,11 +1095,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\Web_7_Projects\\Week_14\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj",
+      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj",
       "projectName": "MiniShopApp.Data",
-      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Web_7_Projects\\Week_14\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj",
+      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj",
       "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Web_7_Projects\\Week_14\\MiniShopApp\\MiniShopApp.Data\\obj\\",
+      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1116,8 +1116,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\SABAH\\Documents\\GitHub\\Web_7_Projects\\Week_14\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj": {
-              "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Web_7_Projects\\Week_14\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj"
+            "C:\\Users\\SABAH\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj": {
+              "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj"
             }
           }
         }

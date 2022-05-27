@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "01/PSq2Hsi8YziBvnUx8CrcfxPhNdbM2JvLH0isaqi7diPXjaRDWwNmYD3Hk9UT3rW0lgUYeq0rAxeCPOGaHxw==",
+  "dgSpecHash": "Z4lKJ7pDz9zgwahhIlHfLUEMtR+71aTv6dusEsOpTC3z48wXTri7jIx86NrrhN/ffWwpp0zEtxixZVA9rivl9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\Web_7_Projects\\Week_14\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj",
+  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABAH\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
