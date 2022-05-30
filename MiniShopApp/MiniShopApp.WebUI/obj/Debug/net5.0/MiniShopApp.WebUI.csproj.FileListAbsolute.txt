@@ -64,7 +64,9 @@ C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.We
 C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\MiniShopApp.WebUI.TagHelpers.input.cache
 C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\MiniShopApp.WebUI.TagHelpers.output.cache
 C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\MiniShopApp.WebUI.RazorCoreGenerate.cache
+C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
 C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Admin\CategoryCreate.cshtml.g.cs
 C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Admin\CategoryList.cshtml.g.cs
 C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Admin\ProductCreate.cshtml.g.cs
@@ -87,8 +89,7 @@ C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.We
 C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\MiniShopApp.WebUI.Views.pdb
 C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\MiniShopApp.WebUI.csproj.CopyComplete
 C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\MiniShopApp.WebUI.dll
-C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\ref\MiniShopApp.WebUI.dll
 C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\MiniShopApp.WebUI.pdb
 C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\MiniShopApp.WebUI.genruntimeconfig.cache
-C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\minishopapp.webui\obj\Debug\net5.0\refint\MiniShopApp.WebUI.dll
-C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\minishopapp.webui\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\ref\MiniShopApp.WebUI.dll
+C:\Users\SABAH\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\bin\Debug\net5.0\ref\MiniShopApp.WebUI.dll
