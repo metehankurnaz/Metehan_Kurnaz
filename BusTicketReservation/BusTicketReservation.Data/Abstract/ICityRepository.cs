@@ -9,6 +9,6 @@ namespace BusTicketReservation.Data
 {
     public interface ICityRepository : IRepository<City>
     {
-        string cityname();
+
     }
 }

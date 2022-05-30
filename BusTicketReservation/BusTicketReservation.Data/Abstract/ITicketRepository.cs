@@ -9,11 +9,7 @@ namespace BusTicketReservation.Data.Abstract
 {
     public interface ITicketRepository : IRepository<Ticket>
     {
-        int GetCountBySeat(int routeId);
-        List<int> GetSeat(int routeId);
-        Ticket GetLastRecord();
-        int GetId();
-        string GetDate(int id);
-        string GetClock(int id);
+        public List<Ticket> GetTickets(string FromWhere, string ToWhere, string Date, string Clock, double Price, int RouteId);
+        public void CreateTicket(Ticket ticket);
     }
 }

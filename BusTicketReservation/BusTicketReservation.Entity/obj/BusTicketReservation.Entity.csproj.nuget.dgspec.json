@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Web ve Mobil Öğle\\Documents\\GitHub\\Projects\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {}
+    "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Web ve Mobil Öğle\\Documents\\GitHub\\Projects\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
+    "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Web ve Mobil Öğle\\Documents\\GitHub\\Projects\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
         "projectName": "BusTicketReservation.Entity",
-        "projectPath": "C:\\Users\\Web ve Mobil Öğle\\Documents\\GitHub\\Projects\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
-        "packagesPath": "C:\\Users\\Web ve Mobil Öğle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Web ve Mobil Öğle\\Documents\\GitHub\\Projects\\BusTicketReservation\\BusTicketReservation.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
+        "packagesPath": "C:\\Users\\Metehan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Web ve Mobil Öğle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Metehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

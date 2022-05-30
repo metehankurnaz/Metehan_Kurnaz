@@ -9,10 +9,6 @@ namespace BusTicketReservation.Data.Abstract
 {
     public interface IRouteRepository : IRepository<Route>
     {
-        string GetDeparture(string departure);
-        string GetArrival(string arrival);
-        List<Route> GetTravel(string departure, string arrival);
-        int GetRouteByStartEnd(string start, string R1, string R2, string R3, string end);
-        Route GetRouteDetails(int id);
+        List<Route> GetRoutes(Route route);
     }
 }
