@@ -1,5 +1,4 @@
 ﻿@model RegisterModel
-
 <h6 class="display-4">Register</h6>
 <hr />
 <form asp-controller="Account" asp-action="Register" method="post">
@@ -13,10 +12,18 @@
                     <input asp-for="FirstName" type="text" class="form-control" />
                 </div>
             </div>
+
             <div class="form-group row mb-2">
                 <label class="col-md-3 col-form-label">Last Name:</label>
                 <div class="col-md-9">
                     <input asp-for="LastName" type="text" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group row mb-2">
+                <label class="col-md-3 col-form-label">User Name:</label>
+                <div class="col-md-9">
+                    <input asp-for="UserName" type="text" class="form-control" />
                 </div>
             </div>
 
@@ -41,11 +48,12 @@
                 </div>
             </div>
 
-        </div>
             <div class="form-group row mb-2">
                 <div class="col-md-9 offset-md-3">
                     <button type="submit" class="btn btn-primary">Register</button>
                 </div>
             </div>
+
+        </div>
     </div>
 </form>

@@ -54,16 +54,15 @@ namespace MiniShopApp.WebUI
 
                 //SignIn
                 options.SignIn.RequireConfirmedEmail = true;
-                options.SignIn.RequireConfirmedPhoneNumber = true;
-            });
+            }); 
 
             services.ConfigureApplicationCookie(options =>
             {
                 options.LoginPath = "/account/login";
                 options.LogoutPath = "/account/logout";
-                options.AccessDeniedPath = "/account/accessdenied"; //eriþimi engellendi.
-                options.SlidingExpiration = true; //her yeni istekte aþaðýdaki 20 dakikayý sýfýrlar
-                options.ExpireTimeSpan = TimeSpan.FromMinutes(20); // 20 dk request olmazsa logout yapacak.
+                options.AccessDeniedPath = "/account/accessdenied";
+                options.SlidingExpiration = true;
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(20);
                 options.Cookie = new CookieBuilder()
                 {
                     HttpOnly = true,
@@ -76,7 +75,7 @@ namespace MiniShopApp.WebUI
             services.AddScoped<IProductService, ProductManager>();
             //Proje boyunca ICategoryService çaðrýldýðýnda, CategoryManager'i kullan.
             services.AddScoped<ICategoryService, CategoryManager>();
-            services.AddScoped<IEmailSender, SmtpEmailSender>(i => new SmtpEmailSender(
+            services.AddScoped<IEmailSender, SmtpEmailSender>(i=>new SmtpEmailSender(
                 Configuration["EmailSender:Host"],
                 Configuration.GetValue<int>("EmailSender:Port"),
                 Configuration.GetValue<bool>("EmailSender:EnableSSL"),
@@ -85,8 +84,12 @@ namespace MiniShopApp.WebUI
                 ));
 
 
+
             //Projemizin MVC yapýsýnda olmasýný saðlar.
             services.AddControllersWithViews();
+            services.AddRazorPages().AddViewOptions(options =>
+                options.HtmlHelperOptions.ClientValidationEnabled = false
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

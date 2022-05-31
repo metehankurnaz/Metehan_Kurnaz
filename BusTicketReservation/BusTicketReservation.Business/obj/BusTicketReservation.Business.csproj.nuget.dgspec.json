@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj": {}
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj": {
+    "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
         "projectName": "BusTicketReservation.Business",
-        "projectPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
-        "packagesPath": "C:\\Users\\Metehan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\obj\\",
+        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
+        "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Metehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Wissen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -58,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

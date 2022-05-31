@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "MiniShopApp.WebUI/1.0.0": {
         "dependencies": {
+          "Castle.Core": "5.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.16",
           "Microsoft.EntityFrameworkCore.Design": "5.0.16",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.16",
@@ -159,7 +160,7 @@
           "Microsoft.VisualBasic.Core": "10.0.6.0",
           "Microsoft.VisualBasic": "10.0.0.0",
           "Microsoft.Win32.Primitives": "5.0.0.0",
-          "Microsoft.Win32.Registry": "5.0.0.0",
+          "Microsoft.Win32.Registry.Reference": "5.0.0.0",
           "mscorlib": "4.0.0.0",
           "netstandard": "2.1.0.0",
           "System.AppContext": "5.0.0.0",
@@ -183,7 +184,7 @@
           "System.Data": "4.0.0.0",
           "System.Diagnostics.Contracts": "5.0.0.0",
           "System.Diagnostics.Debug": "5.0.0.0",
-          "System.Diagnostics.EventLog": "5.0.0.0",
+          "System.Diagnostics.EventLog.Reference": "5.0.0.0",
           "System.Diagnostics.FileVersionInfo": "5.0.0.0",
           "System.Diagnostics.Process": "5.0.0.0",
           "System.Diagnostics.StackTrace": "5.0.0.0",
@@ -265,7 +266,7 @@
           "System.Runtime.Serialization.Json": "5.0.0.0",
           "System.Runtime.Serialization.Primitives": "5.0.0.0",
           "System.Runtime.Serialization.Xml": "5.0.0.0",
-          "System.Security.AccessControl": "5.0.0.0",
+          "System.Security.AccessControl.Reference": "5.0.0.0",
           "System.Security.Claims": "5.0.0.0",
           "System.Security.Cryptography.Algorithms": "5.0.0.0",
           "System.Security.Cryptography.Cng": "5.0.0.0",
@@ -277,7 +278,7 @@
           "System.Security": "4.0.0.0",
           "System.Security.Permissions": "5.0.0.0",
           "System.Security.Principal": "5.0.0.0",
-          "System.Security.Principal.Windows": "5.0.0.0",
+          "System.Security.Principal.Windows.Reference": "5.0.0.0",
           "System.Security.SecureString": "5.0.0.0",
           "System.ServiceModel.Web": "4.0.0.0",
           "System.ServiceProcess": "4.0.0.0",
@@ -320,6 +321,20 @@
         },
         "compile": {
           "MiniShopApp.WebUI.dll": {}
+        }
+      },
+      "Castle.Core/5.0.0": {
+        "dependencies": {
+          "System.Diagnostics.EventLog": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Castle.Core.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Castle.Core.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -603,6 +618,13 @@
           "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.Registry/4.7.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -745,6 +767,13 @@
           "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
+      "System.Diagnostics.EventLog/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.Registry": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
       "System.IO.Pipelines/5.0.2": {
         "runtime": {
           "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
@@ -757,6 +786,13 @@
         }
       },
       "System.Memory/4.5.3": {},
+      "System.Security.AccessControl/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {},
       "MiniShopApp.Business/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "5.0.17",
@@ -1505,7 +1541,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.Win32.Registry/5.0.0.0": {
+      "Microsoft.Win32.Registry.Reference/5.0.0.0": {
         "compile": {
           "Microsoft.Win32.Registry.dll": {}
         },
@@ -1649,7 +1685,7 @@
         },
         "compileOnly": true
       },
-      "System.Diagnostics.EventLog/5.0.0.0": {
+      "System.Diagnostics.EventLog.Reference/5.0.0.0": {
         "compile": {
           "System.Diagnostics.EventLog.dll": {}
         },
@@ -2141,7 +2177,7 @@
         },
         "compileOnly": true
       },
-      "System.Security.AccessControl/5.0.0.0": {
+      "System.Security.AccessControl.Reference/5.0.0.0": {
         "compile": {
           "System.Security.AccessControl.dll": {}
         },
@@ -2213,7 +2249,7 @@
         },
         "compileOnly": true
       },
-      "System.Security.Principal.Windows/5.0.0.0": {
+      "System.Security.Principal.Windows.Reference/5.0.0.0": {
         "compile": {
           "System.Security.Principal.Windows.dll": {}
         },
@@ -2443,6 +2479,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Castle.Core/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-edc8jjyXqzzy8jFdhs36FZdwmlDDTgqPb2Zy1Q5F/f2uAc88bu/VS/0Tpvgupmpl9zJOvOo5ZizVANb0ltN1NQ==",
+      "path": "castle.core/5.0.0",
+      "hashPath": "castle.core.5.0.0.nupkg.sha512"
+    },
     "Humanizer.Core/2.8.26": {
       "type": "package",
       "serviceable": true,
@@ -2639,6 +2682,20 @@
       "path": "microsoft.extensions.primitives/5.0.1",
       "hashPath": "microsoft.extensions.primitives.5.0.1.nupkg.sha512"
     },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "path": "microsoft.win32.registry/4.7.0",
+      "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
+    },
     "Newtonsoft.Json/13.0.1": {
       "type": "package",
       "serviceable": true,
@@ -2695,6 +2752,13 @@
       "path": "system.diagnostics.diagnosticsource/5.0.1",
       "hashPath": "system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
     },
+    "System.Diagnostics.EventLog/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iDoKGQcRwX0qwY+eAEkaJGae0d/lHlxtslO+t8pJWAUxlvY3tqLtVOPnW2UU4cFjP0Y/L1QBqhkZfSyGqVMR2w==",
+      "path": "system.diagnostics.eventlog/4.7.0",
+      "hashPath": "system.diagnostics.eventlog.4.7.0.nupkg.sha512"
+    },
     "System.IO.Pipelines/5.0.2": {
       "type": "package",
       "serviceable": true,
@@ -2708,6 +2772,20 @@
       "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "path": "system.security.accesscontrol/4.7.0",
+      "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "path": "system.security.principal.windows/4.7.0",
+      "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
     "MiniShopApp.Business/1.0.0": {
       "type": "project",
@@ -3319,7 +3397,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Win32.Registry/5.0.0.0": {
+    "Microsoft.Win32.Registry.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3439,7 +3517,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Diagnostics.EventLog/5.0.0.0": {
+    "System.Diagnostics.EventLog.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3849,7 +3927,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Security.AccessControl/5.0.0.0": {
+    "System.Security.AccessControl.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3909,7 +3987,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Security.Principal.Windows/5.0.0.0": {
+    "System.Security.Principal.Windows.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

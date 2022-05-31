@@ -1,11 +1,10 @@
-﻿using System;
-using System.Net;
+﻿using System.Net;
 using System.Net.Mail;
 using System.Threading.Tasks;
 
 namespace MiniShopApp.WebUI.EmailServices
 {
-    public class SmtpEmailSender : IEmailSender
+    public class SmtpEmailSender: IEmailSender
     {
         private string _host;
         private int _port;
@@ -15,12 +14,14 @@ namespace MiniShopApp.WebUI.EmailServices
 
         public SmtpEmailSender(string host, int port, bool enableSSL, string userName, string password)
         {
+            //Depenency Injection
             _host = host;
             _port = port;
             _enableSSL = enableSSL;
             _userName = userName;
             _password = password;
         }
+
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
             var client = new SmtpClient(this._host, this._port)
@@ -31,8 +32,7 @@ namespace MiniShopApp.WebUI.EmailServices
             return client.SendMailAsync(
                 new MailMessage(this._userName, email, subject, htmlMessage)
                 {
-                    IsBodyHtml = true,
-
+                    IsBodyHtml = true
                 });
         }
     }

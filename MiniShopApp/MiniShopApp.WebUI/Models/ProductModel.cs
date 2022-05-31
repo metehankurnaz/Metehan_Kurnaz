@@ -17,6 +17,7 @@ namespace MiniShopApp.WebUI.Models
 
         [Required(ErrorMessage = "Lütfen fiyat bilgisini giriniz!")]
         [Range(1, 50000, ErrorMessage = "Lütfen 1-50000 arasında bir değer giriniz!")]
+        [DataType(DataType.Currency,ErrorMessage ="Lütfen sayısal bir değer giriniz")]
         public decimal? Price { get; set; }
 
         [Required(ErrorMessage = "Açıklama zorunludur!")]
