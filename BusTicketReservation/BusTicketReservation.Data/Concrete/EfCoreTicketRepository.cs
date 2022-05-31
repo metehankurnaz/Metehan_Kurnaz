@@ -10,66 +10,21 @@ namespace BusTicketReservation.Data.Concrete
 {
     public class EfCoreTicketRepository : EfCoreGenericRepository<Ticket, BusContext>, ITicketRepository
     {
-        public string GetClock(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int GetCountBySeat(int routeId)
+        public void CreateTicket(Ticket ticket)
         {
             using (var context = new BusContext())
             {
-                return context.Tickets
-                    .Where(i => i.RouteId == routeId)
-                    .Select(i => i.SeatNumber)
-                    .Count();
+                context.Add(ticket);
+                context.SaveChanges();
             }
         }
 
-        public string GetDate(int id)
+        public List<Ticket> GetFullSeats(string FromWhere, string ToWhere, string Date, string Clock, double Price, int RouteId)
         {
             using (var context = new BusContext())
             {
-                var lastticketdate = context.Routes
-                    .Where(i => i.RouteId == id)
-                    .Select(i => i.Date)
-                    .FirstOrDefault();
-                return lastticketdate;
-            }
-        }
-
-        public int GetId()
-        {
-            using (var context = new BusContext())
-            {
-                var id = context.Tickets
-                    .OrderByDescending(i => i.TicketId)
-                    .Select(i => i.RouteId)
-                    .FirstOrDefault();
-                return id;
-            }
-        }
-
-        public Ticket GetLastRecord()
-        {
-            using (var context = new BusContext())
-            {
-                var lastticket = context.Tickets
-                    .OrderByDescending(i => i.TicketId)
-                    .FirstOrDefault();
-                return lastticket;
-            }
-        }
-
-        public List<int> GetSeat(int routeId)
-        {
-            using (var context = new BusContext())
-            {
-                var seat = context.Tickets
-                    .Where(i => i.RouteId == routeId)
-                    .Select(i => i.SeatNumber)
-                    .ToList();
-                return seat;
+                var fullseats = context.Routes.Where(i => i.FromWhere == FromWhere && i.ToWhere == ToWhere && i.Date == Date && i.Clock == Clock && i.Price == Price).ToList();
+                return fullseats;
             }
         }
     }

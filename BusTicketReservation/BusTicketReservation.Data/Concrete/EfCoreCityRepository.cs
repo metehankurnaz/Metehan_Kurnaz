@@ -9,9 +9,6 @@ namespace BusTicketReservation.Data.Concrete
 {
     public class EfCoreCityRepository : EfCoreGenericRepository<City, BusContext>, ICityRepository
     {
-        public string cityname()
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
