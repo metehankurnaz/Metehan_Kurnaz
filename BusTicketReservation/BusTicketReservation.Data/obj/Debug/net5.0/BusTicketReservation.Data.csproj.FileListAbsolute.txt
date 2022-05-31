@@ -1,0 +1,5 @@
+C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\obj\Debug\net5.0\BusTicketReservation.Data.csproj.AssemblyReference.cache
+C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\obj\Debug\net5.0\BusTicketReservation.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\obj\Debug\net5.0\BusTicketReservation.Data.AssemblyInfoInputs.cache
+C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\obj\Debug\net5.0\BusTicketReservation.Data.AssemblyInfo.cs
+C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\obj\Debug\net5.0\BusTicketReservation.Data.csproj.CoreCompileInputs.cache

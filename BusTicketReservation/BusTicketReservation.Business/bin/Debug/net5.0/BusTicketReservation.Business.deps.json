@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BusTicketReservation.Business/1.0.0": {
+        "dependencies": {
+          "BusTicketReservation.Entity": "1.0.0"
+        },
+        "runtime": {
+          "BusTicketReservation.Business.dll": {}
+        }
+      },
+      "BusTicketReservation.Entity/1.0.0": {
+        "runtime": {
+          "BusTicketReservation.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusTicketReservation.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusTicketReservation.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
