@@ -14,5 +14,6 @@ namespace MiniShopApp.WebUI.Models
         [Required(ErrorMessage = "Şifrenizi giriniz!")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
+        public string ReturnUrl { get; set; }
     }
 }
