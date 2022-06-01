@@ -23,7 +23,7 @@ namespace BusTicketReservation.Data.Concrete
         {
             using (var context = new BusContext())
             {
-                var fullseats = context.Routes.Where(i => i.FromWhere == FromWhere && i.ToWhere == ToWhere && i.Date == Date && i.Clock == Clock && i.Price == Price).ToList();
+                var fullseats = context.Tickets.Where(i => i.FromWhere == FromWhere && i.ToWhere == ToWhere && i.Date == Date && i.Clock == Clock ).ToList();
                 return fullseats;
             }
         }

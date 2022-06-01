@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L1VwMRGMrv6i29MBfc6k9LrikIygF0qVqDfBc1G5Up+uhpQmgoa5guYxcd5tgIQC0WcyrkipkIqCGr7ynSIW9A==",
+  "dgSpecHash": "EPU+eLrUnQpc269KSm7tXYfeH4IeAH86AOcBNuBrkqsesiGeJ4vAJFW0fO23+gzu0RrbfbBI1ta+VONSpS9pHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.16\\microsoft.entityframeworkcore.relational.5.0.16.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\5.0.16\\microsoft.entityframeworkcore.sqlite.5.0.16.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\5.0.16\\microsoft.entityframeworkcore.sqlite.core.5.0.16.nupkg.sha512",
+    "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.16\\microsoft.entityframeworkcore.tools.5.0.16.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
