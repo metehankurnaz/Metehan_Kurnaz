@@ -1,8 +1,33 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model Route
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <div id="carouselExampleInterval" class="carousel slide position-relative" data-bs-ride="carousel">
+        <form action="/" method="post" class="position-absolute" style="z-index:500!important; left:30%;top:2%;">
+            <div class="card opacity-75 border-0">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </form>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 400px;" data-bs-interval="2000">
+                <img src="https://www.academic-tour.com/resim/media/antiochos.jpg" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item " style="height: 400px;" data-bs-interval="2000">
+                <img src="/img/ist-canakkale.png" class="d-block w-100 h-100" alt="...">
+
+            </div>
+            <div class="carousel-item " style="height: 400px;">
+                <img src="https://d3rh8btizouuof.cloudfront.net/images/sicakikramlar2021_web1.png" class="d-block w-100 h-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>     

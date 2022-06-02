@@ -3,3 +3,14 @@ C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketRe
 C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\obj\Debug\net5.0\BusTicketReservation.Business.AssemblyInfoInputs.cache
 C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\obj\Debug\net5.0\BusTicketReservation.Business.AssemblyInfo.cs
 C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\obj\Debug\net5.0\BusTicketReservation.Business.csproj.CoreCompileInputs.cache
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\bin\Debug\net5.0\BusTicketReservation.Business.deps.json
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\bin\Debug\net5.0\BusTicketReservation.Business.dll
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\bin\Debug\net5.0\ref\BusTicketReservation.Business.dll
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\bin\Debug\net5.0\BusTicketReservation.Business.pdb
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\bin\Debug\net5.0\BusTicketReservation.Data.dll
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\bin\Debug\net5.0\BusTicketReservation.Entity.dll
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\bin\Debug\net5.0\BusTicketReservation.Data.pdb
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\bin\Debug\net5.0\BusTicketReservation.Entity.pdb
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\obj\Debug\net5.0\BusTicketReservation.Business.dll
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\obj\Debug\net5.0\ref\BusTicketReservation.Business.dll
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\obj\Debug\net5.0\BusTicketReservation.Business.pdb
