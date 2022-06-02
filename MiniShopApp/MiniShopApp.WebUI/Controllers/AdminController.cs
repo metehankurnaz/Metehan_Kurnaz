@@ -17,6 +17,7 @@ using System.Threading.Tasks;
 
 namespace MiniShopApp.WebUI.Controllers
 {
+    [Authorize(Roles ="Admin")] 
     public class AdminController : Controller
     {
         private readonly IProductService _productService;
@@ -29,9 +30,13 @@ namespace MiniShopApp.WebUI.Controllers
             _productService = productService;
             _categoryService = categoryService;
             _roleManager = roleManager;
-            _userManager = userManager;
+            _userManager = userManager; 
         }
 
+        public IActionResult UserList()
+        {
+            return View(_userManager.Users);
+        }
         public IActionResult RoleList()
         {
             return View(_roleManager.Roles);
@@ -40,14 +45,15 @@ namespace MiniShopApp.WebUI.Controllers
         public IActionResult RoleCreate()
         {
             return View();
-        }
 
+        }
         [HttpPost]
         public async Task<IActionResult> RoleCreate(RoleModel model)
         {
             if (ModelState.IsValid)
             {
-                var result = await _roleManager.CreateAsync(new IdentityRole(model.Name));
+                var result = await _roleManager.CreateAsync(
+                    new IdentityRole(model.Name));
                 if (result.Succeeded)
                 {
                     return RedirectToAction("RoleList");
@@ -60,7 +66,7 @@ namespace MiniShopApp.WebUI.Controllers
             return View(model);
         }
 
-        public async Task<IActionResult> RoleEdit(string id)
+        public async Task<ActionResult> RoleEdit(string id)
         {
             var role = await _roleManager.FindByIdAsync(id);
             var members = new List<User>();
@@ -79,12 +85,45 @@ namespace MiniShopApp.WebUI.Controllers
             };
             return View(model);
         }
-
-        public IActionResult Index()
+        [HttpPost]
+        public async Task<IActionResult> RoleEdit(RoleEditDetails model)
         {
-            return View();
+            if (ModelState.IsValid)
+            {
+                foreach (var userId in model.IdsToAdd ?? new string[] { })
+                {
+                    var user = await _userManager.FindByIdAsync(userId);
+                    if (user!=null)
+                    {
+                        var result = await _userManager.AddToRoleAsync(user, model.RoleName);
+                        if (!result.Succeeded)
+                        {
+                            foreach (var error in result.Errors)
+                            {
+                                ModelState.AddModelError("", error.Description);
+                            }
+                        }
+                    }
+                }
+
+                foreach (var userId in model.IdsToDelete ?? new string[] { })
+                {
+                    var user = await _userManager.FindByIdAsync(userId);
+                    if (user != null)
+                    {
+                        var result = await _userManager.RemoveFromRoleAsync(user, model.RoleName);
+                        if (!result.Succeeded)
+                        {
+                            foreach (var error in result.Errors)
+                            {
+                                ModelState.AddModelError("", error.Description);
+                            }
+                        }
+                    }
+                }
+            }
+            return Redirect("/admin/role/"+model.RoleId);
         }
-        [Authorize]
         public IActionResult ProductList()
         {
             return View(_productService.GetAll());

@@ -23,15 +23,20 @@ namespace MiniShopApp.WebUI.Controllers
             _signInManager = signInManager;
             _emailSender = emailSender;
         }
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
+        
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult Login(string returnUrl)
+        public IActionResult Login( string returnUrl)
         {
             return View(new LoginModel()
-            { 
-                ReturnUrl = returnUrl
+            {
+                ReturnUrl=returnUrl   
             });
         }
         [HttpPost]
@@ -54,7 +59,7 @@ namespace MiniShopApp.WebUI.Controllers
                 ModelState.AddModelError("", "Hesabınız onaylanmamış!Lütfen mail adresinize gelen onay linkini tıklayarak, hesabınızı onaylanıyız!");
                 return View(model);
             }
-
+             
             var result = await _signInManager.PasswordSignInAsync(user, model.Password, true, true);
             if (result.Succeeded)
             {
@@ -179,7 +184,7 @@ namespace MiniShopApp.WebUI.Controllers
             };
             return View();
         }
-        [HttpPost]
+        [HttpPost] 
         public async Task<IActionResult> ResetPassword(ResetPasswordModel model)
         {
             if (!ModelState.IsValid)
