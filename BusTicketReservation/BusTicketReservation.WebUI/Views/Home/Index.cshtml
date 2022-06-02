@@ -1,24 +1,38 @@
 ﻿@model Route
 
     <div id="carouselExampleInterval" class="carousel slide position-relative" data-bs-ride="carousel">
-        <form action="/" method="post" class="position-absolute" style="z-index:500!important; left:30%;top:2%;">
+        <form asp-controller="Home" asp-action="Ticket" method="post" class="position-absolute" style="z-index:500!important; left:35%;top:2%;">
             <div class="card opacity-75 border-0">
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="row">
+                    <div class="card-body">
+                        <label>Nereden</label>
+                        <select asp-for="FromWhere" class="form-select">
+                            @foreach (var city in ViewBag.cities)
+                            {
+                                <option>@city.CityName</option>
+                            }
+                        </select>
+                        <label>Nereye</label>
+                        <select asp-for="ToWhere" class="form-select">
+                            @foreach (var city in ViewBag.cities)
+                            {
+                                <option>@city.CityName</option>
+                            }
+                        </select>
+                        <a href="#" class="btn btn-primary">SEÇ</a>
+                    </div>
                 </div>
             </div>
         </form>
         <div class="carousel-inner">
-            <div class="carousel-item active" style="height: 400px;" data-bs-interval="2000">
+            <div class="carousel-item active" style="height: 500px;" data-bs-interval="2000">
                 <img src="https://www.academic-tour.com/resim/media/antiochos.jpg" class="d-block w-100 h-100" alt="...">
             </div>
-            <div class="carousel-item " style="height: 400px;" data-bs-interval="2000">
+            <div class="carousel-item " style="height: 500px;" data-bs-interval="2000">
                 <img src="/img/ist-canakkale.png" class="d-block w-100 h-100" alt="...">
 
             </div>
-            <div class="carousel-item " style="height: 400px;">
+            <div class="carousel-item " style="height: 500px;">
                 <img src="https://d3rh8btizouuof.cloudfront.net/images/sicakikramlar2021_web1.png" class="d-block w-100 h-100" alt="...">
             </div>
         </div>
