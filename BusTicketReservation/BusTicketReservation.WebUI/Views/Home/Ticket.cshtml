@@ -1,0 +1,56 @@
+﻿@model List<Route>
+
+
+@if (Model.Count() == 0)
+{
+<div class="container mt-3">
+    <h1 class="display-3">BU TARİHTE SEFER BULUNAMADI!</h1>
+</div>
+}
+else
+{
+    @foreach (var item in Model)
+    {<form asp-controller="Home" asp-action="Passenger" method="post">
+            <div class="w-100 ">
+                <div class="row">
+                    <div class="col-3 border border-info ">
+                        <p class="fs-2 text-center">NEREDEN</p>
+                        <p class="text-center fs-4">@item.FromWhere</p>
+                        <input type="hidden" name="Nereden" value="@item.FromWhere" />
+                    </div>
+                    <div class="col-3 border border-info">
+                        <p class="fs-2 text-center">NEREYE</p>
+                        <p class="text-center fs-4">@item.ToWhere</p>
+                        <input type="hidden" name="Nereye" value="@item.ToWhere" />
+                    </div>
+                    <div class="col-2 border border-info">
+                        <p class="fs-2 text-center ">TARİH</p>
+                        <p class="text-center fs-4">@item.Date</p>
+                        <input type="hidden" name="Tarih" value="@item.Date" />
+                    </div>
+                    <div class="col-2 border border-info">
+                        <p class="fs-2 text-center "> SEFER SAATİ</p>
+                        <p class="text-center fs-4">@item.Clock</p>
+                        <input type="hidden" name="Saat" value="@item.Clock" />
+                    </div>
+
+                    <div class="col-1 border border-info">
+                        <p class="fs-2 text-center ">FİYAT</p>
+                        <p class="text-center fs-4">@item.Price TL</p>
+                        <input type="hidden" name="Fiyat" value="@item.Price" />
+                        <input type="hidden" name="YolId" value="@item.RouteId" />
+
+
+                    </div>
+                    <div class="col-1 border border-info d-flex justify-content-center align-items-center">
+                        <button type="submit" class="btn btn-primary">Rezerve Et!</button>
+
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    }
+}
+
+

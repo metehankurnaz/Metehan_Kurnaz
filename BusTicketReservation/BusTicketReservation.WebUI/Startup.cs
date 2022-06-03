@@ -42,6 +42,7 @@ namespace BusTicketReservation.WebUI
         {
             if (env.IsDevelopment())
             {
+                SeedDatabase.Seed();
                 app.UseDeveloperExceptionPage();
             }
             else
@@ -52,7 +53,7 @@ namespace BusTicketReservation.WebUI
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            
             app.UseRouting();
 
             app.UseAuthorization();

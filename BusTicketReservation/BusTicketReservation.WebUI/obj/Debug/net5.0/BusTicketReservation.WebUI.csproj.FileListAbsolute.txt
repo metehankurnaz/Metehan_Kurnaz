@@ -142,3 +142,4 @@ C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketR
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\ref\BusTicketReservation.WebUI.dll
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\BusTicketReservation.WebUI.pdb
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\BusTicketReservation.WebUI.genruntimeconfig.cache
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\Razor\Views\Home\Ticket.cshtml.g.cs

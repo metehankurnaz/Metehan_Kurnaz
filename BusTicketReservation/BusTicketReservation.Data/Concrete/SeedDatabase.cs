@@ -32,12 +32,12 @@ namespace BusTicketReservation.Data.Concrete
         }
         private static Route[] Routes =
         {
-            new Route() {RouteId=1,FromWhere="İstanbul",ToWhere="Kocaeli",Date="02.06.2022",Clock="10:30"},
-            new Route() {RouteId=2,FromWhere="Kocaeli",ToWhere="İstanbul",Date="02.06.2022",Clock="13:30"},
-            new Route() {RouteId=3,FromWhere="İstanbul",ToWhere="Bolu",Date="02.06.2022",Clock="09:00"},
-            new Route() {RouteId=4,FromWhere="Bolu",ToWhere="İstanbul",Date="02.06.2022",Clock="15:00"},
-            new Route() {RouteId=5,FromWhere="İstanbul",ToWhere="Ankara",Date="02.06.2022",Clock="07:30"},
-            new Route() {RouteId=5,FromWhere="Ankara",ToWhere="İstanbul",Date="02.06.2022",Clock="15:30"}
+            new Route() {FromWhere="İstanbul",ToWhere="Kocaeli",Date="02.06.2022",Clock="10:30"},
+            new Route() {FromWhere="Kocaeli",ToWhere="İstanbul",Date="02.06.2022",Clock="13:30"},
+            new Route() {FromWhere="İstanbul",ToWhere="Bolu",Date="02.06.2022",Clock="09:00"},
+            new Route() {FromWhere="Bolu",ToWhere="İstanbul",Date="02.06.2022",Clock="15:00"},
+            new Route() {FromWhere="İstanbul",ToWhere="Ankara",Date="02.06.2022",Clock="07:30"},
+            new Route() {FromWhere="Ankara",ToWhere="İstanbul",Date="02.06.2022",Clock="15:30"}
         };
         private static City[] Cities =
         {
@@ -48,12 +48,12 @@ namespace BusTicketReservation.Data.Concrete
         };
         private static Ticket[] Tickets =
         {
-            new Ticket() {TicketId=1,Name="Yusuf",Surname="Koçak",FromWhere="İstanbul",ToWhere="Kocaeli",SeatNo=1,Price=100,RouteId=1},
-            new Ticket() {TicketId=1,Name="Serhan",Surname="Orhan",FromWhere="Kocaeli",ToWhere="İstanbul",SeatNo=2,Price=100,RouteId=2},
-            new Ticket() {TicketId=1,Name="Metehan",Surname="Kurnaz",FromWhere="İstanbul",ToWhere="Bolu",SeatNo=3,Price=150,RouteId=3},
-            new Ticket() {TicketId=1,Name="Ahmet",Surname="Kargin",FromWhere="Bolu",ToWhere="İstanbul",SeatNo=4,Price=150,RouteId=4},
-            new Ticket() {TicketId=1,Name="Arda",Surname="Girişit",FromWhere="İstanbul",ToWhere="Ankara",SeatNo=5,Price=200,RouteId=5},
-            new Ticket() {TicketId=1,Name="Furkan",Surname="Kaya",FromWhere="Ankara",ToWhere="İstanbul",SeatNo=6,Price=200,RouteId=5}
+            new Ticket() {Name="Yusuf",Surname="Koçak",FromWhere="İstanbul",ToWhere="Kocaeli",SeatNo=1,Price=100,RouteId=1},
+            new Ticket() {Name="Serhan",Surname="Orhan",FromWhere="Kocaeli",ToWhere="İstanbul",SeatNo=2,Price=100,RouteId=2},
+            new Ticket() {Name="Metehan",Surname="Kurnaz",FromWhere="İstanbul",ToWhere="Bolu",SeatNo=3,Price=150,RouteId=3},
+            new Ticket() {Name="Ahmet",Surname="Kargin",FromWhere="Bolu",ToWhere="İstanbul",SeatNo=4,Price=150,RouteId=4},
+            new Ticket() {Name="Arda",Surname="Girişit",FromWhere="İstanbul",ToWhere="Ankara",SeatNo=5,Price=200,RouteId=5},
+            new Ticket() {Name="Furkan",Surname="Kaya",FromWhere="Ankara",ToWhere="İstanbul",SeatNo=6,Price=200,RouteId=5}
         };
     }
 }

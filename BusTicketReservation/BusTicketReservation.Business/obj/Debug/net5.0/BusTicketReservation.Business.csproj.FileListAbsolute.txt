@@ -31,4 +31,3 @@ C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketR
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\obj\Debug\net5.0\BusTicketReservation.Business.dll
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\obj\Debug\net5.0\ref\BusTicketReservation.Business.dll
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\obj\Debug\net5.0\BusTicketReservation.Business.pdb
-C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Business\obj\Debug\net5.0\BusTicketReservation.Business.csproj.CopyComplete

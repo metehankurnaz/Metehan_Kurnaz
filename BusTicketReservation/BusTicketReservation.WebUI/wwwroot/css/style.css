@@ -17,3 +17,11 @@ body {
         display: none !important;
     }
 }
+
+.deneme{
+
+}
+.deneme :hover
+{
+    transform:scaleY(1.2)!important;
+}
