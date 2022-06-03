@@ -1,0 +1,76 @@
+﻿@model Ticket
+
+<form asp-controller="Home" asp-action="Reserved" method="post">
+    <div class="container mt-3">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">NEREDEN</label>
+            <input type="text" class="form-control" asp-for="FromWhere" readonly value="@Model.FromWhere">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">NEREYE</label>
+            <input type="text" class="form-control" asp-for="ToWhere" readonly value="@Model.ToWhere">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">TARİH</label>
+            <input type="date" class="form-control" asp-for="Date" readonly value="@Model.Date">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">SAAT</label>
+            <input type="text" class="form-control" asp-for="Clock" readonly value="@Model.Clock">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">FİYAT</label>
+            <input type="text" class="form-control" asp-for="Price" readonly value="@Model.Price">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">AD</label>
+            <input type="text" class="form-control" asp-for="Name">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">SOYAD</label>
+            <input type="text" class="form-control" asp-for="Surname">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">KOLTUK NO</label>
+            <select asp-for="SeatNo" class="form-select">
+                @foreach (var seat in ViewBag.seats)
+                {
+                    <option>@seat</option>
+                }
+            </select>
+        </div>
+    </div>
+
+    <div class="container d-flex justify-content-center">
+        <input type="hidden" class="form-control" asp-for="RouteId" readonly value="@Model.RouteId">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">REZERVE ET</button>
+    </div>
+
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">BİLET REZERVE BİLGİLERİ</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p>@Model.FromWhere - @Model.ToWhere </p>
+                    <p>TARİH: @Model.Date</p>
+                    <p>SAAT : @Model.Clock</p>
+
+                </div>
+                <div class="modal-footer">
+                    <p>BİLETİ REZERVE ETMEK İSTEDİĞİNİZE EMİN MİSİNİZ ?</p>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İPTAL</button>
+                    <button type="submit" class="btn btn-primary">EVET</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</form>

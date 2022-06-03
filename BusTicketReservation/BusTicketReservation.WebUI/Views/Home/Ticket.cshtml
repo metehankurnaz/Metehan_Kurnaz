@@ -10,40 +10,45 @@
 else
 {
     @foreach (var item in Model)
-    {<form asp-controller="Home" asp-action="Passenger" method="post">
-            <div class="w-100 ">
+    {   <form asp-controller="Home" asp-action="Passenger" method="post">
+            <div class="container mt-3">
                 <div class="row">
-                    <div class="col-3 border border-info ">
+                    <div class="col-2 border border-dark ">
                         <p class="fs-2 text-center">NEREDEN</p>
-                        <p class="text-center fs-4">@item.FromWhere</p>
+                        <hr />
+                        <p class="text-center fs-1">@item.FromWhere</p>
                         <input type="hidden" name="Nereden" value="@item.FromWhere" />
                     </div>
-                    <div class="col-3 border border-info">
+                    <div class="col-2 border border-dark">
                         <p class="fs-2 text-center">NEREYE</p>
-                        <p class="text-center fs-4">@item.ToWhere</p>
+                        <hr />
+                        <p class="text-center fs-1">@item.ToWhere</p>
                         <input type="hidden" name="Nereye" value="@item.ToWhere" />
                     </div>
-                    <div class="col-2 border border-info">
+                    <div class="col-3 border border-dark">
                         <p class="fs-2 text-center ">TARİH</p>
-                        <p class="text-center fs-4">@item.Date</p>
+                        <hr />
+                        <p class="text-center fs-1">@item.Date</p>
                         <input type="hidden" name="Tarih" value="@item.Date" />
                     </div>
-                    <div class="col-2 border border-info">
+                    <div class="col-2 border border-dark">
                         <p class="fs-2 text-center "> SEFER SAATİ</p>
-                        <p class="text-center fs-4">@item.Clock</p>
+                        <hr />
+                        <p class="text-center fs-1">@item.Clock</p>
                         <input type="hidden" name="Saat" value="@item.Clock" />
                     </div>
 
-                    <div class="col-1 border border-info">
+                    <div class="col-2 border border-dark">
                         <p class="fs-2 text-center ">FİYAT</p>
-                        <p class="text-center fs-4">@item.Price TL</p>
+                        <hr />
+                        <p class="text-center fs-1">@item.Price TL</p>
                         <input type="hidden" name="Fiyat" value="@item.Price" />
                         <input type="hidden" name="YolId" value="@item.RouteId" />
 
 
                     </div>
-                    <div class="col-1 border border-info d-flex justify-content-center align-items-center">
-                        <button type="submit" class="btn btn-primary">Rezerve Et!</button>
+                    <div class="col-1 border border-0 d-flex justify-content-center align-items-center">
+                        <button type="submit" class="btn btn-sm btn-success">Rezerve Et!</button>
 
                     </div>
                 </div>

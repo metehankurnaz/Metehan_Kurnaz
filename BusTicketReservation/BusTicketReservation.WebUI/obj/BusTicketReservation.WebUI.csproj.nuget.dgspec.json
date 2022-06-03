@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj": {}
+    "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj": {
+    "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
         "projectName": "BusTicketReservation.Business",
-        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
-        "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\obj\\",
+        "projectPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj",
+        "packagesPath": "C:\\Users\\Metehan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Wissen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Metehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -34,11 +32,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj": {
-                "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj"
+              "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj": {
+                "projectPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj"
               },
-              "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
-                "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj"
+              "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
+                "projectPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj"
               }
             }
           }
@@ -67,28 +65,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj": {
+    "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
         "projectName": "BusTicketReservation.Data",
-        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
-        "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Data\\obj\\",
+        "projectPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Data\\BusTicketReservation.Data.csproj",
+        "packagesPath": "C:\\Users\\Metehan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Wissen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Metehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -101,8 +97,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
-                "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj"
+              "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
+                "projectPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj"
               }
             }
           }
@@ -153,28 +149,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
+    "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
         "projectName": "BusTicketReservation.Entity",
-        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
-        "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj",
+        "packagesPath": "C:\\Users\\Metehan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Wissen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Metehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -213,28 +207,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj": {
+    "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj",
+        "projectUniqueName": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj",
         "projectName": "BusTicketReservation.WebUI",
-        "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj",
-        "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\obj\\",
+        "projectPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj",
+        "packagesPath": "C:\\Users\\Metehan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Wissen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Metehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -247,11 +239,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj": {
-                "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj"
+              "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj": {
+                "projectPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj"
               },
-              "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
-                "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj"
+              "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
+                "projectPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj"
               }
             }
           }
@@ -291,7 +283,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }
