@@ -1,0 +1,37 @@
+﻿@model Ticket
+
+<div class="form-group container mt-5">
+    <div class="row">
+        <div class="col-md-12 p-0">
+            <div class="card border-dark pt-2 container" style="border-bottom: 2px dotted black !important">
+                <br />
+                <div class="d-flex justify-content-around" style="font-weight:bolder">
+                    <p>Tarih: @Model.Date</p><p>Saat: @Model.Clock</p><p>Koltuk Numarası: @Model.SeatNo</p>
+                </div>
+                <hr />
+                <h3>Yolcu Adı Soyadı:</h3>
+                <h2>@Model.Name @Model.Surname</h2>
+                <h4>Fiyat: @Model.Price ₺ </h4>
+                <hr />
+                <div class="d-flex justify-content-center">
+                    <h5>
+                        @Model.FromWhere <i class="fa-solid fa-arrow-right"></i>
+                        @Model.ToWhere
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 p-0">
+            <div class="card border-dark pt-2" style="border-top: 2px dotted black !important">
+                <div class="d-flex justify-content-center align-items-center mt-3" style="border-radius:203px; height:195px; width:203px; background: #F8FAF5; margin:0 auto;">
+                    <i class="fas fa-check-circle" style="font-size:140px; color:crimson;"></i>
+                </div>
+                <div class="d-flex justify-content-center pt-3">
+                    <hr />
+                    <h2> PNR Number: RQK4VS29</h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -43,16 +43,15 @@
 
     <div class="container d-flex justify-content-center">
         <input type="hidden" class="form-control" asp-for="RouteId" readonly value="@Model.RouteId">
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">REZERVE ET</button>
+        <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">REZERVE ET</button>
     </div>
 
-    <!-- Button trigger modal -->
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">BİLET REZERVE BİLGİLERİ</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">BİLET REZERVASYON BİLGİLERİ</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -63,14 +62,15 @@
 
                 </div>
                 <div class="modal-footer">
-                    <p>BİLETİ REZERVE ETMEK İSTEDİĞİNİZE EMİN MİSİNİZ ?</p>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İPTAL</button>
-                    <button type="submit" class="btn btn-primary">EVET</button>
+                    <div class="container">
+                        <p>BİLETİ REZERVE ETMEK İSTEDİĞİNİZE EMİN MİSİNİZ ?</p>
+                        <br />
+                        <button type="submit" class="btn btn-sm btn-success">EVET</button>
+                        <button type="button" class="btn btn-sm btn-danger" data-bs-dismiss="modal">İPTAL</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-
 
 </form>

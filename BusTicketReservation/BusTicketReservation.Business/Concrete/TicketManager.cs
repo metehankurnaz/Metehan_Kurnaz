@@ -36,6 +36,11 @@ namespace BusTicketReservation.Business.Concrete
             return _ticketRepository.GetAll();
         }
 
+        public Ticket GetById(int id)
+        {
+            return _ticketRepository.GetById(id);
+        }
+
         public List<Ticket> GetFullSeats(string FromWhere, string ToWhere, string Date, string Clock, double Price, int RouteId)
         {
             return _ticketRepository.GetFullSeats(FromWhere, ToWhere, Date, Clock, Price, RouteId);

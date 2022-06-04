@@ -5,15 +5,17 @@
         <div class="card border-0" style="opacity:0.8">
             <div class="row" style="width:500px;">
                 <div class="card-body card text-center">
-                    <label style="font-size:large;">Nereden</label>
+                    <label style="font-size:large;">NEREDEN</label>
                     <select asp-for="FromWhere" class="form-select">
+                        <option selected disabled>Şehir Seçiniz</option>
                         @foreach (var city in ViewBag.cities)
                         {
                             <option>@city.CityName</option>
                         }
                     </select>
-                    <label style="font-size:large;">Nereye</label>
+                    <label style="font-size:large;">NEREYE</label>
                     <select asp-for="ToWhere" class="form-select">
+                        <option selected disabled>Şehir Seçiniz</option>
                         @foreach (var city in ViewBag.cities)
                         {
                             <option>@city.CityName</option>

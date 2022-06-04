@@ -9,41 +9,41 @@
 }
 else
 {
-    @foreach (var item in Model)
+    @foreach (var route in Model)
     {   <form asp-controller="Home" asp-action="Passenger" method="post">
             <div class="container mt-3">
                 <div class="row">
                     <div class="col-2 border border-dark ">
                         <p class="fs-2 text-center">NEREDEN</p>
                         <hr />
-                        <p class="text-center fs-1">@item.FromWhere</p>
-                        <input type="hidden" name="Nereden" value="@item.FromWhere" />
+                        <p class="text-center fs-1">@route.FromWhere</p>
+                        <input type="hidden" name="FromWhere" value="@route.FromWhere" />
                     </div>
                     <div class="col-2 border border-dark">
                         <p class="fs-2 text-center">NEREYE</p>
                         <hr />
-                        <p class="text-center fs-1">@item.ToWhere</p>
-                        <input type="hidden" name="Nereye" value="@item.ToWhere" />
+                        <p class="text-center fs-1">@route.ToWhere</p>
+                        <input type="hidden" name="ToWhere" value="@route.ToWhere" />
                     </div>
                     <div class="col-3 border border-dark">
                         <p class="fs-2 text-center ">TARİH</p>
                         <hr />
-                        <p class="text-center fs-1">@item.Date</p>
-                        <input type="hidden" name="Tarih" value="@item.Date" />
+                        <p class="text-center fs-1">@route.Date</p>
+                        <input type="hidden" name="Date" value="@route.Date" />
                     </div>
                     <div class="col-2 border border-dark">
                         <p class="fs-2 text-center "> SEFER SAATİ</p>
                         <hr />
-                        <p class="text-center fs-1">@item.Clock</p>
-                        <input type="hidden" name="Saat" value="@item.Clock" />
+                        <p class="text-center fs-1">@route.Clock</p>
+                        <input type="hidden" name="Clock" value="@route.Clock" />
                     </div>
 
                     <div class="col-2 border border-dark">
                         <p class="fs-2 text-center ">FİYAT</p>
                         <hr />
-                        <p class="text-center fs-1">@item.Price TL</p>
-                        <input type="hidden" name="Fiyat" value="@item.Price" />
-                        <input type="hidden" name="YolId" value="@item.RouteId" />
+                        <p class="text-center fs-1">@route.Price TL</p>
+                        <input type="hidden" name="Price" value="@route.Price" />
+                        <input type="hidden" name="RouteId" value="@route.RouteId" />
 
 
                     </div>

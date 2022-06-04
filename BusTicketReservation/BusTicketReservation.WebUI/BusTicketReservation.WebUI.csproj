@@ -12,10 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\BusTicketReservation.Business\BusTicketReservation.Business.csproj" />
     <ProjectReference Include="..\BusTicketReservation.Entity\BusTicketReservation.Entity.csproj" />
   </ItemGroup>

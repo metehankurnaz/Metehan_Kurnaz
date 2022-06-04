@@ -59,6 +59,8 @@ C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketR
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\BusTicketReservation.WebUI.RazorCoreGenerate.cache
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\Razor\Views\Home\Passenger.cshtml.g.cs
+C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\Razor\Views\Home\Reserved.cshtml.g.cs
+C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\Razor\Views\Home\Ticket.cshtml.g.cs
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
@@ -71,4 +73,4 @@ C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketR
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\ref\BusTicketReservation.WebUI.dll
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\BusTicketReservation.WebUI.pdb
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\BusTicketReservation.WebUI.genruntimeconfig.cache
-C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\Razor\Views\Home\Ticket.cshtml.g.cs
+C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\Razor\Views\Admin\AdminPage.cshtml.g.cs

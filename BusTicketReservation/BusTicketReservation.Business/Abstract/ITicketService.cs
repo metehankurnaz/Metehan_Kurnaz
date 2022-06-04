@@ -15,5 +15,6 @@ namespace BusTicketReservation.Business.Abstract
         void Delete(Ticket entity);
         void CreateTicket(Ticket entity);
         List<Ticket> GetFullSeats(string FromWhere, string ToWhere, string Date, string Clock, double Price, int RouteId);
+        Ticket GetById(int id);
     }
 }
