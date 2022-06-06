@@ -72,9 +72,14 @@ namespace MiniShopApp.WebUI
             });
             services.AddScoped<IProductRepository, EfCoreProductRepository>();
             services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>();
+            services.AddScoped<ICardRepository, EfCoreCardRepository>();
+
             services.AddScoped<IProductService, ProductManager>();
-            //Proje boyunca ICategoryService çaðrýldýðýnda, CategoryManager'i kullan.
             services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<ICardService, CardManager>();
+
+
+
             services.AddScoped<IEmailSender, SmtpEmailSender>(i=>new SmtpEmailSender(
                 Configuration["EmailSender:Host"],
                 Configuration.GetValue<int>("EmailSender:Port"),
@@ -93,7 +98,7 @@ namespace MiniShopApp.WebUI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
         {
             if (env.IsDevelopment())
             {
@@ -117,6 +122,12 @@ namespace MiniShopApp.WebUI
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
+                    name: "card",
+                    pattern: "card",
+                    defaults: new { controller = "Card", action = "Index" }
+                    );
+
+                endpoints.MapControllerRoute(
                     name: "adminusers",
                     pattern: "admin/user/list",
                     defaults: new { controller = "Admin", action = "UserList" }
@@ -126,12 +137,6 @@ namespace MiniShopApp.WebUI
                     name: "adminusercreate",
                     pattern: "admin/user/create",
                     defaults: new { controller = "Admin", action = "UserCreate" }
-                    );
-
-                endpoints.MapControllerRoute(
-                    name: "adminrolecreate",
-                    pattern: "admin/role/create",
-                    defaults: new { controller = "Admin", action = "RoleCreate" }
                     );
 
                 endpoints.MapControllerRoute(
@@ -147,13 +152,16 @@ namespace MiniShopApp.WebUI
                     );
 
                 endpoints.MapControllerRoute(
+                    name: "adminrolecreate",
+                    pattern: "admin/role/create",
+                    defaults: new { controller = "Admin", action = "RoleCreate" }
+                    );
+
+                endpoints.MapControllerRoute(
                     name: "adminroleedit",
                     pattern: "admin/role/{id}",
                     defaults: new { controller = "Admin", action = "RoleEdit" }
                     );
-
-                
-
 
 
                 endpoints.MapControllerRoute(
@@ -191,7 +199,8 @@ namespace MiniShopApp.WebUI
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
-            //Buraya kullanýcý bilgilerini oluþturacak metodumuzu çaðýran kodu yazacaðýz.
+
+            //Buraya kullanýcý bilgilerini oluþturacak metodumuz çaðýran kodu yazacaðýz.
             SeedIdentity.Seed(userManager, roleManager, Configuration).Wait();
         }
     }

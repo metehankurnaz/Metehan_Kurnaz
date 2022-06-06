@@ -28,6 +28,7 @@ C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.B
 C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.Business\obj\Debug\net5.0\MiniShopApp.Business.AssemblyInfoInputs.cache
 C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.Business\obj\Debug\net5.0\MiniShopApp.Business.AssemblyInfo.cs
 C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.Business\obj\Debug\net5.0\MiniShopApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.Business\obj\Debug\net5.0\MiniShopApp.Business.csproj.CopyComplete
 C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.Business\obj\Debug\net5.0\MiniShopApp.Business.dll
 C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.Business\obj\Debug\net5.0\ref\MiniShopApp.Business.dll
 C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.Business\obj\Debug\net5.0\MiniShopApp.Business.pdb

@@ -16,7 +16,7 @@ namespace MiniShopApp.WebUI.Identity
             var adminEmail = configuration["UserData:AdminUser:Email"];
             var adminPassword = configuration["UserData:AdminUser:Password"];
             var adminRole = configuration["UserData:AdminUser:Role"];
-            if (await userManager.FindByNameAsync(adminUserName) == null)
+            if (await userManager.FindByNameAsync(adminUserName)==null)
             {
                 await roleManager.CreateAsync(new IdentityRole(adminRole));
                 var adminUser = new User()

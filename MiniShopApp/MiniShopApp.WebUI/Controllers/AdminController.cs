@@ -9,7 +9,7 @@ using MiniShopApp.WebUI.Identity;
 using MiniShopApp.WebUI.Models;
 using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
+using System.Collections.Generic; 
 using System.IO;
 using System.Linq;
 using System.Net.Http.Json;
@@ -25,13 +25,13 @@ namespace MiniShopApp.WebUI.Controllers
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly UserManager<User> _userManager;
 
-        public AdminController(IProductService productService, ICategoryService categoryService, RoleManager<IdentityRole> roleManager, UserManager<User> userManager)
+        public AdminController(IProductService productService, ICategoryService categoryService, RoleManager<IdentityRole> roleManager, UserManager<User> userManager) 
         {
             _productService = productService;
             _categoryService = categoryService;
             _roleManager = roleManager;
-            _userManager = userManager; 
-        }
+            _userManager = userManager;  
+        } 
 
         public IActionResult UserList()
         {
@@ -50,17 +50,17 @@ namespace MiniShopApp.WebUI.Controllers
             {
                 var user = new User()
                 {
-                    FirstName = model.FirstName,
-                    LastName = model.LastName,
-                    UserName = model.UserName,
-                    Email = model.Email,
-                    EmailConfirmed = model.EmailConfirmed
+                    FirstName=model.FirstName,
+                    LastName=model.LastName,
+                    UserName=model.UserName,
+                    Email=model.Email,
+                    EmailConfirmed=model.EmailConfirmed
                 };
                 var result = await _userManager.CreateAsync(user, "Qwe123.");
                 if (result.Succeeded)
                 {
                     selectedRoles = selectedRoles ?? new string[] { };
-                    await _userManager.AddToRolesAsync(user, selectedRoles);
+                    await _userManager.AddToRolesAsync(user,selectedRoles);
                     return Redirect("~/admin/user/list");
                 }
                 foreach (var error in result.Errors)
@@ -78,19 +78,19 @@ namespace MiniShopApp.WebUI.Controllers
         public async Task<IActionResult> UserEdit(string id)
         {
             var user = await _userManager.FindByIdAsync(id);
-            if (user != null)
+            if (user!=null)
             {
                 var selectedRoles = await _userManager.GetRolesAsync(user);
                 var roles = _roleManager.Roles.Select(i => i.Name);
                 ViewBag.Roles = roles;
-                return View(new UserDetailsModel() 
+                return View(new UserDetailsModel()
                 {
-                    UserId = user.Id,
-                    UserName = user.UserName,
-                    FirstName = user.FirstName,
-                    LastName = user.LastName,
-                    Email = user.Email,
-                    EmailConfirmed = user.EmailConfirmed,
+                    UserId=user.Id,
+                    UserName=user.UserName,
+                    FirstName=user.FirstName,
+                    LastName=user.LastName,
+                    Email=user.Email,
+                    EmailConfirmed=user.EmailConfirmed,
                     SelectedRoles = selectedRoles
                 });
             }
@@ -102,7 +102,7 @@ namespace MiniShopApp.WebUI.Controllers
             if (ModelState.IsValid)
             {
                 var user = await _userManager.FindByIdAsync(model.UserId);
-                if (user != null)
+                if (user!=null)
                 {
                     user.FirstName = model.FirstName;
                     user.LastName = model.LastName;
@@ -136,6 +136,7 @@ namespace MiniShopApp.WebUI.Controllers
         {
             return View(_roleManager.Roles);
         }
+
         public IActionResult RoleCreate()
         {
             return View();

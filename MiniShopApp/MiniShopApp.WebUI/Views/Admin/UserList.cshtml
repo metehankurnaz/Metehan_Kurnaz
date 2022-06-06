@@ -1,8 +1,8 @@
 ﻿@model IEnumerable<User>
-@section Css{
+@section Css{ 
     <link href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" rel="stylesheet" />
 }
-@section Scripts{
+@section Scripts {
     <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
     <script>
         $(document).ready(function () {
@@ -16,7 +16,7 @@
         <hr />
         <a href="/admin/user/create" class="btn btn-sm btn-primary">Create User</a>
         <hr />
-        <table data-page-length="2" class="table table-sm table-bordered table-hover" id="userList">
+        <table data-page-length="2" class="table table-sm table-bordered hover" id="userList">
             <thead>
                 <tr>
                     <th>First Name</th>

@@ -13,6 +13,8 @@ namespace MiniShopApp.Data.Concrete.EfCore
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
+        public DbSet<Card> Cards { get; set; }
+        public DbSet<CardItem> CardItems { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
