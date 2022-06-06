@@ -1,0 +1,7 @@
+>cd server
+>npm init -y
+>npm install express mongoose cors nodemon
+>node index.js yazarsak
+
+>cd client
+>npx create-react-app .
