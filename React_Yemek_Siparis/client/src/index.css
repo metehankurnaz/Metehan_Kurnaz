@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-link {
+color: white !important;
+}
+
+:hover.nav-link {
+color:springgreen !important;
+}
+
+.navbar-brand {
+  color: springgreen !important;
+}
+
+:hover.navbar-brand{
+  color: white !important;
+}
+
+h1 {
+  font-size: 20px !important;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.btn {
+  background-color: springgreen;
+  color: black;
+}
