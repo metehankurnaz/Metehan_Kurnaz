@@ -40,5 +40,11 @@ namespace MiniShopApp.WebUI.Controllers
             };
             return View(model);
         }
+        public IActionResult AddToCard(int productId, int quantity)
+        {
+            var userId = _userManager.GetUserId(User);
+            _cardService.AddToCard(userId, productId, quantity);
+            return RedirectToAction("Index");
+        }
     }
 }

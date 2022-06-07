@@ -21,5 +21,14 @@ namespace MiniShopApp.Data.Concrete.EfCore
                     .FirstOrDefault(i => i.UserId == userId);
             }
         }
+        public override void Update(Card entity)
+        {
+            using (var context = new MiniShopContext())
+            {
+                context.Cards.Update(entity);
+                context.SaveChanges();
+            }
+            base.Update(entity);
+        }
     }
 }

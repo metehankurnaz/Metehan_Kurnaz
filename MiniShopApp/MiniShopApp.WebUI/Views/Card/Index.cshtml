@@ -51,6 +51,26 @@ else
                 </table>
             </div>
         </div>
-        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <div>
+                <h6>Card Summary</h6>
+            </div>
+            <table class="table table-sm">
+                <tbody>
+                    <tr>
+                        <th>Card Total:</th>
+                        <td>@Model.TotalPrice().ToString("c")</td>
+                    </tr>
+                    <tr>
+                        <th>Shipping:</th>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <th>Order Total:</th>
+                        <td>@Model.TotalPrice().ToString("c")</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 }

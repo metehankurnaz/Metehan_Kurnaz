@@ -11,5 +11,6 @@ namespace MiniShopApp.Business.Abstract
     {
         void InitializeCard(string userId);
         Card GetCardByUserId(string userId);
+        void AddToCard(string userId, int productId, int quantity);
     }
 }

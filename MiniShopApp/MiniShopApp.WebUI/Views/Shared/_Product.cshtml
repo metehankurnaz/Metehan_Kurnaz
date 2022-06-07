@@ -15,6 +15,14 @@
                asp-action="Details"
                asp-route-url=@Model.Url
                class="btn btn-sm btn-primary">Detail</a>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <form asp-controller="Card" asp-action="AddToCard" method="post">
+                    <input type="hidden" name="productId" value="@Model.ProductId" />
+                    <input type="hidden" name="quantity" value="1" />
+                    <button type="submit" class="btn btn-sm btn-success">Add to Card</button>
+                </form>
+            }
             <a href="#" class="btn btn-sm btn-success">Add to Card</a>
         </div>
     </div>
