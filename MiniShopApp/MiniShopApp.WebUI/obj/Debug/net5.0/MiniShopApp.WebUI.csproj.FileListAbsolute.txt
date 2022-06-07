@@ -205,3 +205,9 @@ C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.W
 C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\ref\MiniShopApp.WebUI.dll
 C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\MiniShopApp.WebUI.pdb
 C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\MiniShopApp.WebUI.genruntimeconfig.cache
+C:\Users\Wissen\Documents\GitHub\Engin Hoca Repo\Web_7_Projects\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\Users\Wissen\Documents\GitHub\Engin Hoca Repo\Web_7_Projects\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Admin\UserCreate.cshtml.g.cs
+C:\Users\Wissen\Documents\GitHub\Engin Hoca Repo\Web_7_Projects\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Admin\UserEdit.cshtml.g.cs
+C:\Users\Wissen\Documents\GitHub\Engin Hoca Repo\Web_7_Projects\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Admin\UserList.cshtml.g.cs
+C:\Users\Wissen\Documents\GitHub\Engin Hoca Repo\Web_7_Projects\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Card\CheckOut.cshtml.g.cs
+C:\Users\Wissen\Documents\GitHub\Engin Hoca Repo\Web_7_Projects\Week_14\MiniShopApp\MiniShopApp.WebUI\obj\Debug\net5.0\Razor\Views\Card\Index.cshtml.g.cs

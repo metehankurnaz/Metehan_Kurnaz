@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yc8x54CDBQWgyUZoGHY0C4AZ8fhY1sHOZpx9GWdSmHAzeJNTMvxaJkSa4+/kRE2Y4zKvb2GMfLEsSXIjFiUvmA==",
+  "dgSpecHash": "24/KcQjBk2SUTB/SvRX9YOnb5eaOdjKHippZcRqKGt7+NvWQPmIZBOz+ocbWaJqVQAYFZjjO+MY+ZCYM7Pg+Og==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wissen\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj",
+  "projectFilePath": "C:\\Users\\Wissen\\Documents\\GitHub\\Engin Hoca Repo\\Web_7_Projects\\Week_14\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.16\\microsoft.data.sqlite.core.5.0.16.nupkg.sha512",

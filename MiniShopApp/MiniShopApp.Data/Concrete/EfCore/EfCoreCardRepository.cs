@@ -11,6 +11,15 @@ namespace MiniShopApp.Data.Concrete.EfCore
 {
     public class EfCoreCardRepository : EfCoreGenericRepository<Card, MiniShopContext>, ICardRepository
     {
+        public void DeleteFromCard(int cardId, int productId)
+        {
+            using (var context = new MiniShopContext())
+            {
+                var cmd = @"DELETE FROM CardItems WHERE CardId=@p0 AND ProductId=@p1";
+                context.Database.ExecuteSqlRaw(cmd, cardId, productId);
+            }
+        }
+
         public Card GetByUserId(string userId)
         {
             using (var context = new MiniShopContext())
@@ -20,7 +29,7 @@ namespace MiniShopApp.Data.Concrete.EfCore
                     .ThenInclude(i => i.Product)
                     .FirstOrDefault(i => i.UserId == userId);
             }
-        }
+        } 
         public override void Update(Card entity)
         {
             using (var context = new MiniShopContext())

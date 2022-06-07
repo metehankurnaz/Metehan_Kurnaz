@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NeKZBjd+oYw62HG/CAj747clpySNap8S+F6VHDOFk0q/qWVHlNdLfKESxcce4hUhKi0OcZcpGUZ0J4Fbazk6zw==",
+  "dgSpecHash": "SeMMnefs/3NE3eVm3y26/bW1H/Hdw8VKT46ayzqaJvgRnKK8t0vvkgBZKs0mtWYHqEKZrvkYBTPRyzjx3EQAZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wissen\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.WebUI\\MiniShopApp.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\Wissen\\Documents\\GitHub\\Engin Hoca Repo\\Web_7_Projects\\Week_14\\MiniShopApp\\MiniShopApp.WebUI\\MiniShopApp.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wissen\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
