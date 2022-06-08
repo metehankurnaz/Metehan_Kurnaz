@@ -3,7 +3,8 @@ import Foods from "../components/Foods";
 import axios from "axios";
 
 function Homepage() {
-  const [foods, setFoods] = useState({});
+  const [foods, setFoods] = useState([]);
+
   useEffect(() => {
     axios
       .get("http://localhost:1001/getfoods")
@@ -13,14 +14,16 @@ function Homepage() {
       .catch((err) => console.log(err));
   }, []);
 
+  console.log(foods);
+
   return (
     <div>
       <div className="row">
-        {foods.map((food) => {
-            <div className="col-md-4">
-          <Foods  food={food} />
-        </div>
-        })}
+        {foods.map((food) => (
+          <div className="col-md-4">
+            <Foods food={food} />
+          </div>
+        ))}
       </div>
     </div>
   );

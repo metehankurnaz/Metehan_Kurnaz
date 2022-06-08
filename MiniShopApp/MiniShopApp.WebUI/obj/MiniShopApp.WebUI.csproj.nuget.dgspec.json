@@ -266,10 +266,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Castle.Core": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.16, )"
@@ -293,6 +289,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "iyzipay": {
+              "target": "Package",
+              "version": "[2.1.39, )"
             }
           },
           "imports": [
