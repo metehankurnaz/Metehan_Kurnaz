@@ -9,7 +9,7 @@ using MiniShopApp.Data.Concrete.EfCore;
 namespace MiniShopApp.Data.Migrations
 {
     [DbContext(typeof(MiniShopContext))]
-    [Migration("20220608060829_AddOrderEntity")]
+    [Migration("20220608060827_AddOrderEntity")]
     partial class AddOrderEntity
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

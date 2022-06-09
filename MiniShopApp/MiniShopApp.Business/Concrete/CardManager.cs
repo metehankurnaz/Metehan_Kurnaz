@@ -57,5 +57,10 @@ namespace MiniShopApp.Business.Concrete
         {
             _cardRepository.Create(new Card() { UserId=userId});
         }
+
+        public void ClearCard(int cardId)
+        {
+            _cardRepository.ClearCard(cardId);
+        }
     }
 }

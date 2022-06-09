@@ -11,5 +11,6 @@ namespace MiniShopApp.Data.Abstract
     {
         Card GetByUserId(string userId);
         void DeleteFromCard(int cardId, int productId);
+        void ClearCard(int cardId);
     }
 }

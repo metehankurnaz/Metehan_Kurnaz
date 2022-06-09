@@ -523,6 +523,20 @@
           "bin/placeholder/MiniShopApp.Business.dll": {}
         }
       },
+      "MiniShopApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/MiniShopApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiniShopApp.Core.dll": {}
+        }
+      },
       "MiniShopApp.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1430,6 +1444,11 @@
       "path": "../MiniShopApp.Business/MiniShopApp.Business.csproj",
       "msbuildProject": "../MiniShopApp.Business/MiniShopApp.Business.csproj"
     },
+    "MiniShopApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../MiniShopApp.Core/MiniShopApp.Core.csproj",
+      "msbuildProject": "../MiniShopApp.Core/MiniShopApp.Core.csproj"
+    },
     "MiniShopApp.Data/1.0.0": {
       "type": "project",
       "path": "../MiniShopApp.Data/MiniShopApp.Data.csproj",
@@ -1448,6 +1467,7 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.16",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.16",
       "MiniShopApp.Business >= 1.0.0",
+      "MiniShopApp.Core >= 1.0.0",
       "MiniShopApp.Data >= 1.0.0",
       "Newtonsoft.Json >= 13.0.1",
       "iyzipay >= 2.1.39"
@@ -1461,11 +1481,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.WebUI\\MiniShopApp.WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\MiniShopApp\\MiniShopApp.WebUI\\MiniShopApp.WebUI.csproj",
       "projectName": "MiniShopApp.WebUI",
-      "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.WebUI\\MiniShopApp.WebUI.csproj",
+      "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\MiniShopApp\\MiniShopApp.WebUI\\MiniShopApp.WebUI.csproj",
       "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.WebUI\\obj\\",
+      "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\MiniShopApp\\MiniShopApp.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1488,11 +1508,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Wissen\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj": {
-              "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj"
+            "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj": {
+              "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj"
             },
-            "C:\\Users\\Wissen\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj": {
-              "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Web07_Project\\Week_14\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj"
+            "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj": {
+              "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj"
+            },
+            "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj": {
+              "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj"
             }
           }
         }

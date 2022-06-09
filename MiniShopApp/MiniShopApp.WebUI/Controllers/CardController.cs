@@ -5,12 +5,16 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MiniShopApp.Business.Abstract;
+using MiniShopApp.Core;
+using MiniShopApp.Entity;
 using MiniShopApp.WebUI.Identity;
 using MiniShopApp.WebUI.Models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using OrderItem = MiniShopApp.Entity.OrderItem;
 
 namespace MiniShopApp.WebUI.Controllers
 {
@@ -19,11 +23,13 @@ namespace MiniShopApp.WebUI.Controllers
     {
         private ICardService _cardService;
         private UserManager<User> _userManager;
+        private IOrderService _orderService;
 
-        public CardController(ICardService cardService, UserManager<User> userManager)
+        public CardController(ICardService cardService, UserManager<User> userManager, IOrderService orderService)
         {
             _cardService = cardService;
             _userManager = userManager;
+            _orderService = orderService;
         }
 
         public IActionResult Index()
@@ -52,7 +58,7 @@ namespace MiniShopApp.WebUI.Controllers
             _cardService.AddToCard(userId, productId, quantity);
             return RedirectToAction("Index");
         }
-
+        
         [HttpPost]
         public IActionResult DeleteFromCard(int productId)
         {
@@ -70,12 +76,12 @@ namespace MiniShopApp.WebUI.Controllers
                 CardId = card.Id,
                 CardItems = card.CardItems.Select(i => new CardItemModel()
                 {
-                    CardItemId = i.Id,
-                    ProductId = i.ProductId,
-                    Name = i.Product.Name,
-                    Price = (double)i.Product.Price,
-                    ImageUrl = i.Product.ImageUrl,
-                    Quantity = i.Quantity
+                    CardItemId= i.Id,
+                    ProductId=i.ProductId,
+                    Name=i.Product.Name,
+                    Price=(double)i.Product.Price,
+                    ImageUrl=i.Product.ImageUrl,
+                    Quantity=i.Quantity
                 }).ToList()
             };
 
@@ -83,7 +89,7 @@ namespace MiniShopApp.WebUI.Controllers
         }
 
         [HttpPost]
-        public IActionResult CheckOut(OrderModel orderModel, CardModel cardModel, double totalPrice)
+        public IActionResult CheckOut(OrderModel orderModel)
         {
             if (ModelState.IsValid)
             {
@@ -102,27 +108,65 @@ namespace MiniShopApp.WebUI.Controllers
                         Quantity = i.Quantity
                     }).ToList()
                 };
-                //Ödeme işlemine başlayacağız.
+                //Ödeme alma işlemine başlayacağız
                 var payment = PaymentProcess(orderModel);
-                if (payment.Status == "success")
+                if (payment.Status=="success")
                 {
-                    //SaveOrder();
-                    //ClearCard();
+                    SaveOrder(orderModel,payment,userId);
+                    _cardService.ClearCard(orderModel.CardModel.CardId);
+                    TempData["Message"] = JobManager.CreateMessage("BAŞARILI!", "Ödemeniz başarıyla alınmıştır!", "success");
                     return View("Success");
                 }
+                else
+                {
+                    TempData["Message"] = JobManager.CreateMessage("BAŞARISIZ!",payment.ErrorMessage,"danger");
+                }
+                
             }
+            return View(orderModel);
+        }
+
+        private void SaveOrder(OrderModel orderModel, Payment payment, string userId)
+        {
+            var order = new Order();
+            order.OrderNumber = new Random().Next(111111111, 999999999).ToString();
+            order.OrderState = EnumOrderState.Completed;
+            order.PaymentType = EnumPaymentType.CreditCard;
+            order.PaymentId = payment.PaymentId;
+            order.ConversationId = payment.ConversationId;
+            order.OrderDate = new DateTime();
+            order.FirstName = orderModel.FirstName;
+            order.LastName = orderModel.LastName;
+            order.UserId = userId;
+            order.Address = orderModel.Address;
+            order.City = orderModel.City;
+            order.Phone = orderModel.Phone;
+            order.Email = orderModel.Email;
+            order.OrderItems = new List<OrderItem>();
+            foreach (var item in orderModel.CardModel.CardItems)
+            {
+                var orderItem = new OrderItem()
+                {
+                    Price=item.Price,
+                    Quantity=item.Quantity,
+                    ProductId=item.ProductId
+                };
+                order.OrderItems.Add(orderItem);
+            }
+            //Artık bu bilgileri kullanarak order kaydı yaratabiliriz!
+            _orderService.Create(order);
         }
 
         private Payment PaymentProcess(OrderModel orderModel)
         {
             Options options = new Options();
-            options.ApiKey = "sandbox-Bgba9Ec3ejYEsep8aMKCxrDsSxwqrgZP";
-            options.SecretKey = "sandbox-3Iaz48R7lfZsiWyvSRnHVO5BVidQsVMz";
+            options.ApiKey = "sandbox-9D01souNiet8ejdsclkhltHUrSaItC74";
+            options.SecretKey = "sandbox-8q72kkhu9mmEtYr1od2cZcomxvZWttH8";
             options.BaseUrl = "https://sandbox-api.iyzipay.com";
 
             CreatePaymentRequest request = new CreatePaymentRequest();
             request.Locale = Locale.TR.ToString();
-            request.ConversationId = new Random().Next(111111111, 999999999).ToString();
+            request.ConversationId = new Random().Next(111111111,999999999).ToString();
             request.Price = orderModel.CardModel.TotalPrice().ToString();
             request.PaidPrice = orderModel.CardModel.TotalPrice().ToString();
             request.Currency = Currency.TRY.ToString();
@@ -144,7 +188,6 @@ namespace MiniShopApp.WebUI.Controllers
             //paymentCard.ExpireMonth = "12";
             //paymentCard.ExpireYear = "2030";
             //paymentCard.Cvc = "123";
-
 
             Buyer buyer = new Buyer();
             buyer.Id = "BY789";
@@ -187,7 +230,7 @@ namespace MiniShopApp.WebUI.Controllers
                 basketItem.Name = item.Name;
                 basketItem.Category1 = "General";
                 basketItem.ItemType = BasketItemType.PHYSICAL.ToString();
-                basketItem.Price = item.Price.ToString();
+                basketItem.Price = (item.Quantity*item.Price).ToString();
                 basketItems.Add(basketItem);
             }
             request.BasketItems = basketItems;

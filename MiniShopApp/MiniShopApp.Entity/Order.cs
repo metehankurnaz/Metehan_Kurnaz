@@ -28,14 +28,14 @@ namespace MiniShopApp.Entity
 
     public enum EnumOrderState
     {
-        Waiting = 0,
-        Unpaid = 1,
-        Completed = 2
+        Waiting=0,
+        Unpaid=1,
+        Completed=2
     }
 
     public enum EnumPaymentType
     {
-        CreditCard = 0,
-        Eft = 1
+        CreditCard=0,
+        Eft=1
     }
 }
