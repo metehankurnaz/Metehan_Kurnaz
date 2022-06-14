@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using MiniShopApp.WebUI.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,8 +13,8 @@ namespace MiniShopApp.WebUI
     public class Program
     {
         public static void Main(string[] args)
-        {
-            CreateHostBuilder(args).Build().Run();
+        {//WebUI Extension Klasörü oluþturduk - MigrateDatabase 'i tanýmladýk.
+            CreateHostBuilder(args).Build().MigrateDatabase().Run(); //MigrateDatabase metodu oluþturduk. Oto-Migrate için!
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

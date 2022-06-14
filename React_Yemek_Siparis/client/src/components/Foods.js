@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
+import {useDispatch,useSelector} from "react-redux";
+import {addtocart} from "../actions/cartActions";
 
 function Foods({ food }) {
   const [show, setShow] = useState(false);
@@ -9,6 +11,10 @@ function Foods({ food }) {
 
   const [quantity, setQuantity] = useState(1);
   const [varient, setVarient] = useState("small");
+
+  function addtocart() {
+
+  }
 
   return (
     <div className="bg-light mt-5 shadow-lg p-3">

@@ -10,3 +10,15 @@ C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketR
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\obj\Debug\net5.0\BusTicketReservation.Entity.dll
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\obj\Debug\net5.0\ref\BusTicketReservation.Entity.dll
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\obj\Debug\net5.0\BusTicketReservation.Entity.pdb
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\bin\Debug\net5.0\BusTicketReservation.Entity.deps.json
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\bin\Debug\net5.0\BusTicketReservation.Entity.dll
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\bin\Debug\net5.0\ref\BusTicketReservation.Entity.dll
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\bin\Debug\net5.0\BusTicketReservation.Entity.pdb
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\obj\Debug\net5.0\BusTicketReservation.Entity.csproj.AssemblyReference.cache
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\obj\Debug\net5.0\BusTicketReservation.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\obj\Debug\net5.0\BusTicketReservation.Entity.AssemblyInfoInputs.cache
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\obj\Debug\net5.0\BusTicketReservation.Entity.AssemblyInfo.cs
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\obj\Debug\net5.0\BusTicketReservation.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\obj\Debug\net5.0\BusTicketReservation.Entity.dll
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\obj\Debug\net5.0\ref\BusTicketReservation.Entity.dll
+C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Entity\obj\Debug\net5.0\BusTicketReservation.Entity.pdb
