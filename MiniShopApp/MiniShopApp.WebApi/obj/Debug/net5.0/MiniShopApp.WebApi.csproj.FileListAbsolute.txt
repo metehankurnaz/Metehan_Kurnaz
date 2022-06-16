@@ -85,4 +85,3 @@ C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.W
 C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebApi\bin\Debug\net5.0\MiniShopApp.Business.pdb
 C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebApi\bin\Debug\net5.0\MiniShopApp.Data.pdb
 C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebApi\bin\Debug\net5.0\MiniShopApp.Entity.pdb
-C:\Users\Wissen\Documents\GitHub\Web07_Project\Week_14\MiniShopApp\MiniShopApp.WebApi\obj\Debug\net5.0\MiniShopApp.WebApi.csproj.CopyComplete

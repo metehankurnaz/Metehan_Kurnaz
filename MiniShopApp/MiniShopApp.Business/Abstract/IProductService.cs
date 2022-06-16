@@ -12,9 +12,11 @@ namespace MiniShopApp.Business.Abstract
         Task<Product> GetById(int id);
         Task<List<Product>> GetAll();
         void Create(Product entity);
+        Task UpdateProductAsync(Product entityToUpdate, Product entity);
         Task<Product> CreateAsync(Product entity);
         void Update(Product entity);
         void Delete(Product entity);
+        Task DeleteAsync(Product entity);
         List<Product> GetProductsByCategory(string name, int page, int pageSize);
         Product GetProductDetails(string url);
         List<Product> GetHomePageProducts();

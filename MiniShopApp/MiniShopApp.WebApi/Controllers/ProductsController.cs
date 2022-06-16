@@ -43,5 +43,33 @@ namespace MiniShopApp.WebApi.Controllers
             await _productService.CreateAsync(entity);
             return CreatedAtAction(nameof(GetProduct), new { id = entity.ProductId }, entity);
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateProduct(int id, Product entity)
+        {
+            if (id != entity.ProductId)
+            {
+                return BadRequest();
+            }
+            var product = await _productService.GetById(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            await _productService.UpdateProductAsync(product,entity);
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            var product = await _productService.GetById(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            await _productService.DeleteAsync(product);
+            return NoContent();
+        }
     }
 }
