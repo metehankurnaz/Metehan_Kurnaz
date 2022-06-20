@@ -104,8 +104,46 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="#">İLETİŞİM</a>
                     </li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a href="/card" class="nav-link text-dark">Cards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/orders" class="nav-link text-dark">Orders</a>
+                        </li>
+                        if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link active" asp-controller="Admin" asp-action="AdminPage">ADMIN PANELİ</a>
+                            </li>
+                        }
+                    }
                 </ul>
+            </div>
+            <div>
+                <ul class="navbar-nav flex-grow-1">
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a href="/account/login" class="nav-link text-dark">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/account/register" class="nav-link text-dark">Register</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a href="/account/manage" class="nav-link text-dark">@User.Identity.Name</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/account/logout" class="nav-link text-dark">Logout</a>
+                        </li>
+                    }
 
+
+                </ul>
             </div>
         </div>
     </header>
