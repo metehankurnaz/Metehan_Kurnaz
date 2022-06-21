@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTicketReservation.WebUI", "BusTicketReservation.WebUI\BusTicketReservation.WebUI.csproj", "{4E3CA746-C5BF-40D0-9B54-A1F7B407677C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusTicketReservation.WebUI", "BusTicketReservation.WebUI\BusTicketReservation.WebUI.csproj", "{4E3CA746-C5BF-40D0-9B54-A1F7B407677C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTicketReservation.Entity", "BusTicketReservation.Entity\BusTicketReservation.Entity.csproj", "{32EA2CFC-FF11-4DDB-9D60-53044FFEE119}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusTicketReservation.Entity", "BusTicketReservation.Entity\BusTicketReservation.Entity.csproj", "{32EA2CFC-FF11-4DDB-9D60-53044FFEE119}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTicketReservation.Data", "BusTicketReservation.Data\BusTicketReservation.Data.csproj", "{C8675E88-3569-4385-AA7B-6ABAF0428A3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusTicketReservation.Data", "BusTicketReservation.Data\BusTicketReservation.Data.csproj", "{C8675E88-3569-4385-AA7B-6ABAF0428A3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTicketReservation.Business", "BusTicketReservation.Business\BusTicketReservation.Business.csproj", "{3718EC7A-4FD3-4ED9-884F-A86F1C7DB3EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusTicketReservation.Business", "BusTicketReservation.Business\BusTicketReservation.Business.csproj", "{3718EC7A-4FD3-4ED9-884F-A86F1C7DB3EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTicketReservation.Core", "BusTicketReservation.Core\BusTicketReservation.Core.csproj", "{C5F8CE90-F9B0-4A6E-8E6A-DA38CD69F538}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3718EC7A-4FD3-4ED9-884F-A86F1C7DB3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3718EC7A-4FD3-4ED9-884F-A86F1C7DB3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3718EC7A-4FD3-4ED9-884F-A86F1C7DB3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F8CE90-F9B0-4A6E-8E6A-DA38CD69F538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F8CE90-F9B0-4A6E-8E6A-DA38CD69F538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F8CE90-F9B0-4A6E-8E6A-DA38CD69F538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F8CE90-F9B0-4A6E-8E6A-DA38CD69F538}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

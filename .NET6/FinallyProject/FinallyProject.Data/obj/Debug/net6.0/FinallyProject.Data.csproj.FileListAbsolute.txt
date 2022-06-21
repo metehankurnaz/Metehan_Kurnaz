@@ -1,0 +1,17 @@
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\bin\Debug\net6.0\FinallyProject.Data.deps.json
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\bin\Debug\net6.0\FinallyProject.Data.runtimeconfig.json
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\bin\Debug\net6.0\FinallyProject.Data.dll
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\bin\Debug\net6.0\FinallyProject.Data.pdb
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\bin\Debug\net6.0\FinallyProject.Entity.dll
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\bin\Debug\net6.0\FinallyProject.Entity.pdb
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\obj\Debug\net6.0\FinallyProject.Data.csproj.AssemblyReference.cache
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\obj\Debug\net6.0\FinallyProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\obj\Debug\net6.0\FinallyProject.Data.AssemblyInfoInputs.cache
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\obj\Debug\net6.0\FinallyProject.Data.AssemblyInfo.cs
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\obj\Debug\net6.0\FinallyProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\obj\Debug\net6.0\FinallyProject.Data.csproj.CopyComplete
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\obj\Debug\net6.0\FinallyProject.Data.dll
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\obj\Debug\net6.0\refint\FinallyProject.Data.dll
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\obj\Debug\net6.0\FinallyProject.Data.pdb
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\obj\Debug\net6.0\FinallyProject.Data.genruntimeconfig.cache
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Data\obj\Debug\net6.0\ref\FinallyProject.Data.dll

@@ -1,0 +1,12 @@
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Entity\bin\Debug\net6.0\FinallyProject.Entity.deps.json
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Entity\bin\Debug\net6.0\FinallyProject.Entity.dll
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Entity\bin\Debug\net6.0\FinallyProject.Entity.pdb
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Entity\obj\Debug\net6.0\FinallyProject.Entity.csproj.AssemblyReference.cache
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Entity\obj\Debug\net6.0\FinallyProject.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Entity\obj\Debug\net6.0\FinallyProject.Entity.AssemblyInfoInputs.cache
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Entity\obj\Debug\net6.0\FinallyProject.Entity.AssemblyInfo.cs
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Entity\obj\Debug\net6.0\FinallyProject.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Entity\obj\Debug\net6.0\FinallyProject.Entity.dll
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Entity\obj\Debug\net6.0\refint\FinallyProject.Entity.dll
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Entity\obj\Debug\net6.0\FinallyProject.Entity.pdb
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Entity\obj\Debug\net6.0\ref\FinallyProject.Entity.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FinallyProject.Business/1.0.0": {
+        "dependencies": {
+          "FinallyProject.Entity": "1.0.0"
+        },
+        "runtime": {
+          "FinallyProject.Business.dll": {}
+        }
+      },
+      "FinallyProject.Entity/1.0.0": {
+        "runtime": {
+          "FinallyProject.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinallyProject.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinallyProject.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

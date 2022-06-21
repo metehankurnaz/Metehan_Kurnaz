@@ -1284,25 +1284,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Metehan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Wissen\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj",
       "projectName": "BusTicketReservation.WebUI",
-      "projectPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj",
-      "packagesPath": "C:\\Users\\Metehan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\obj\\",
+      "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\BusTicketReservation.WebUI.csproj",
+      "packagesPath": "C:\\Users\\Wissen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Metehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Wissen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -1315,11 +1318,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj": {
-              "projectPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj"
+            "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj": {
+              "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Business\\BusTicketReservation.Business.csproj"
             },
-            "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
-              "projectPath": "C:\\Users\\Metehan\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj"
+            "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj": {
+              "projectPath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Entity\\BusTicketReservation.Entity.csproj"
             }
           }
         }
@@ -1363,7 +1366,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

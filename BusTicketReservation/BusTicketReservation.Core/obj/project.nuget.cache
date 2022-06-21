@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "FFVBTEz455oJjMClpwIPrdum42bSVOmIT3jxa9U2U41dLG8nW5WKxJ4/GDuDkAR0bQ4DC0tXA5jMsO3y0tHotA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\BusTicketReservation\\BusTicketReservation.Core\\BusTicketReservation.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Wissen\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

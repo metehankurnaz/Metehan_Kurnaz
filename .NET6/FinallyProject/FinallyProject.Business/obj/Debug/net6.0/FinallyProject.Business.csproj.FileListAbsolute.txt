@@ -1,0 +1,15 @@
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\bin\Debug\net6.0\FinallyProject.Business.deps.json
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\bin\Debug\net6.0\FinallyProject.Business.dll
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\bin\Debug\net6.0\FinallyProject.Business.pdb
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\bin\Debug\net6.0\FinallyProject.Entity.dll
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\bin\Debug\net6.0\FinallyProject.Entity.pdb
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\obj\Debug\net6.0\FinallyProject.Business.csproj.AssemblyReference.cache
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\obj\Debug\net6.0\FinallyProject.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\obj\Debug\net6.0\FinallyProject.Business.AssemblyInfoInputs.cache
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\obj\Debug\net6.0\FinallyProject.Business.AssemblyInfo.cs
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\obj\Debug\net6.0\FinallyProject.Business.csproj.CoreCompileInputs.cache
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\obj\Debug\net6.0\FinallyProject.Business.csproj.CopyComplete
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\obj\Debug\net6.0\FinallyProject.Business.dll
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\obj\Debug\net6.0\refint\FinallyProject.Business.dll
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\obj\Debug\net6.0\FinallyProject.Business.pdb
+C:\Users\Wissen\source\repos\FinallyProject\FinallyProject.Business\obj\Debug\net6.0\ref\FinallyProject.Business.dll
