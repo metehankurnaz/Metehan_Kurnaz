@@ -1,5 +1,7 @@
 ﻿using BusTicketReservation.Business.Abstract;
 using BusTicketReservation.Entity;
+using BusTicketReservation.WebUI.EmailServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -15,11 +17,13 @@ namespace BusTicketReservation.WebUI.Controllers
         private ICityService _cityService;
         private IRouteService _routeService;
         private ITicketService _ticketService;
-        public HomeController(ICityService cityService, IRouteService routeService, ITicketService ticketService)
+        private IEmailSender _emailSender;
+        public HomeController(ICityService cityService, IRouteService routeService, ITicketService ticketService, IEmailSender emailSender)
         {
             _cityService = cityService;
             _routeService = routeService;
             _ticketService = ticketService;
+            _emailSender = emailSender;
         }
         public IActionResult Index()
         {
@@ -56,6 +60,7 @@ namespace BusTicketReservation.WebUI.Controllers
 
             return View(ticket);
         }
+        
         public IActionResult Reserved(Ticket ticket)
         {
             _ticketService.CreateTicket(ticket);

@@ -30,12 +30,7 @@ namespace BusTicketReservation.WebUI.Controllers
         {
             _userManager = userManager;
             _signInManager = signInManager;
-            this._emailSender = emailSender;
-        }
-
-        public IActionResult AccessDenied()
-        {
-            return View();
+            _emailSender = emailSender;
         }
 
         public IActionResult Index()
@@ -62,13 +57,13 @@ namespace BusTicketReservation.WebUI.Controllers
             var user = await _userManager.FindByNameAsync(model.UserName);
             if (user == null)
             {
-                ModelState.AddModelError("", "Böyle bir kullanıcı bulunamadı!");
+                ModelState.AddModelError("", "No such user here!");
                 return View(model);
             }
 
             if (!await _userManager.IsEmailConfirmedAsync(user))
             {
-                ModelState.AddModelError("", "Hesabınız onaylanmamış! Lütfen Mail adresinize gelen onay linkine tıklayarak, hesabınızı onaylayınız!");
+                ModelState.AddModelError("", "Your account has not been confirmed! Please click here to verify your email address!");
                 return View(model);
             }
 
@@ -78,7 +73,7 @@ namespace BusTicketReservation.WebUI.Controllers
                 return Redirect(model.ReturnUrl ?? "~/");
             }
 
-            CreateMessage("Şifreniz hatalı", "danger");
+            CreateMessage("Wrong password, please try again!", "danger");
 
             return View(model);
         }
@@ -114,7 +109,7 @@ namespace BusTicketReservation.WebUI.Controllers
                     token = code
                 });
 
-                await _emailSender.SendEmailAsync(model.Email, "Confirm Account!", $"Please click here to verify your account! <a href='https://localhost:5001{url}'>CLICK</a>");
+                await _emailSender.SendEmailAsync(model.Email, "Confirm account!", $"Please click here to verify your account! <a href='https://localhost:5001{url}'>CLICK</a>");
                 CreateMessage("Click on the confirmation link sent to your e-mail to complete your registration!", "warning");
                 return RedirectToAction("Login", "Account");
             }
@@ -135,7 +130,7 @@ namespace BusTicketReservation.WebUI.Controllers
                 var result = await _userManager.ConfirmEmailAsync(user, token);
                 if (result.Succeeded)
                 {
-                    CreateMessage("Your account has been Confirmed!", "success");
+                    CreateMessage("Your account has been confirmed!", "success");
                 }
                 return View();
             }
@@ -160,7 +155,7 @@ namespace BusTicketReservation.WebUI.Controllers
         {
             if (string.IsNullOrEmpty(email))
             {
-                CreateMessage("Please enter your Email", "warning");
+                CreateMessage("Please enter your email", "warning");
                 return View();
             }
             var user = await _userManager.FindByEmailAsync(email);
@@ -178,7 +173,52 @@ namespace BusTicketReservation.WebUI.Controllers
             });
 
             await _emailSender.SendEmailAsync(email, "Reset Password", $"Please click here to reset your password! <a href='https://localhost:5001{url}'>CLICK</a>");
-            CreateMessage("")
+            CreateMessage("Password reset mail has been sended to your email!", "warning");
+            return RedirectToAction("Index", "Home");
         }
+
+        public IActionResult ResetPassword(string userId, string token)
+        {
+            if (userId == null || token == null)
+            {
+                CreateMessage("Error! Please try again!", "danger");
+                return RedirectToAction("Index", "Home");
+            }
+
+            var model = new ResetPasswordModel()
+            {
+                Token = token
+            };
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+            var user = await _userManager.FindByEmailAsync(model.Email);
+
+            if (user == null)
+            {
+                CreateMessage("Error! Please check the information and try again!", "danger");
+                return View();
+            }
+            var result = await _userManager.ResetPasswordAsync(
+                    user,
+                    model.Token,
+                    model.Password
+                );
+
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Login");
+            }
+            CreateMessage("Error! Please contact to admin!","danger");
+            return Redirect("~/");
+        }
+
     }
 }

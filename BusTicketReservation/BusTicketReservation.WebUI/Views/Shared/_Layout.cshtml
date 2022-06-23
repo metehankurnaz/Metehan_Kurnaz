@@ -99,19 +99,11 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" asp-controller="Admin" asp-action="AdminPage">ADMIN PANELİ</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link active" href="#">İLETİŞİM</a>
                     </li>
+
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <li class="nav-item">
-                            <a href="/card" class="nav-link text-dark">Cards</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/orders" class="nav-link text-dark">Orders</a>
-                        </li>
                         if (User.IsInRole("Admin"))
                         {
                             <li class="nav-item">

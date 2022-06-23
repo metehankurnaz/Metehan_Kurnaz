@@ -5,7 +5,6 @@ C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketR
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\bin\Debug\net5.0\BusTicketReservation.WebUI.runtimeconfig.json
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\bin\Debug\net5.0\BusTicketReservation.WebUI.runtimeconfig.dev.json
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\bin\Debug\net5.0\BusTicketReservation.WebUI.dll
-C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\bin\Debug\net5.0\ref\BusTicketReservation.WebUI.dll
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\bin\Debug\net5.0\BusTicketReservation.WebUI.pdb
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\bin\Debug\net5.0\BusTicketReservation.WebUI.Views.dll
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\bin\Debug\net5.0\BusTicketReservation.WebUI.Views.pdb
@@ -52,7 +51,6 @@ C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketR
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\BusTicketReservation.WebUI.RazorAssemblyInfo.cache
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\BusTicketReservation.WebUI.RazorAssemblyInfo.cs
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\staticwebassets\BusTicketReservation.WebUI.StaticWebAssets.Manifest.cache
-C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\staticwebassets\BusTicketReservation.WebUI.StaticWebAssets.xml
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\scopedcss\bundle\BusTicketReservation.WebUI.styles.css
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\BusTicketReservation.WebUI.TagHelpers.input.cache
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\BusTicketReservation.WebUI.TagHelpers.output.cache
@@ -155,3 +153,8 @@ C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketR
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.WebUI\obj\Debug\net5.0\refint\BusTicketReservation.WebUI.dll

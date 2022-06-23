@@ -2,7 +2,6 @@ C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketR
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\bin\Debug\net5.0\BusTicketReservation.Data.runtimeconfig.json
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\bin\Debug\net5.0\BusTicketReservation.Data.runtimeconfig.dev.json
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\bin\Debug\net5.0\BusTicketReservation.Data.dll
-C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\bin\Debug\net5.0\ref\BusTicketReservation.Data.dll
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\bin\Debug\net5.0\BusTicketReservation.Data.pdb
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\bin\Debug\net5.0\BusTicketReservation.Entity.dll
 C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\bin\Debug\net5.0\BusTicketReservation.Entity.pdb
@@ -33,3 +32,4 @@ C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketRe
 C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\obj\Debug\net5.0\BusTicketReservation.Data.pdb
 C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\obj\Debug\net5.0\BusTicketReservation.Data.genruntimeconfig.cache
 C:\Users\Wissen\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\bin\Debug\net5.0\ref\BusTicketReservation.Data.dll
+C:\Users\Metehan\Documents\GitHub\Metehan_Kurnaz\BusTicketReservation\BusTicketReservation.Data\obj\Debug\net5.0\refint\BusTicketReservation.Data.dll
