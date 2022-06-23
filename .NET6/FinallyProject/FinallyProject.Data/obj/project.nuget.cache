@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ScwtUze2w7OnRbUMTQ6Lp9AodumVEQZTOUNyaFlsCgtsLP+GsvzvBmDwVYlH6e21ZVBgUnRtRpicpomNmHO8Ow==",
+  "dgSpecHash": "XkMQcXu9DIGMBkWHQ6+BWM7GNhlfOOs5248PqKBPEeExpu0chnCdIWguk1aXcoHbzW5fNj1xcyMRf2rUP96gZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wissen\\source\\repos\\FinallyProject\\FinallyProject.Data\\FinallyProject.Data.csproj",
+  "projectFilePath": "C:\\Users\\Wissen\\Documents\\GitHub\\Metehan_Kurnaz\\.NET6\\FinallyProject\\FinallyProject.Data\\FinallyProject.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wissen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Wissen\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.6\\microsoft.data.sqlite.core.6.0.6.nupkg.sha512",

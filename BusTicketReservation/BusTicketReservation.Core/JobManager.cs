@@ -34,16 +34,5 @@ namespace BusTicketReservation.Core
 
             return url;
         }
-
-        public static string UploadImage(IFormFile file, string url)
-        {
-            var extension = Path.GetExtension(file.FileName);
-            var randomName = $"{url}-{Guid.NewGuid()}{extension}";
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", randomName);
-            using (var stream = new FileStream)
-            {
-
-            }
-        }
     }
 }
