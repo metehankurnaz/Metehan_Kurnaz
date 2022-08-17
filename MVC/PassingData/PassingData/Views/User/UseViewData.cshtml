@@ -1,0 +1,19 @@
+﻿@using PassingData.Models
+
+@if (ViewData["UserName"].ToString() == "Ramazan")
+{
+    <p>Merhaba @ViewData["UserName"].ToString()</p>
+}
+else
+{
+    User user = ViewData["User"] as User;
+    <p>Merhaba @user.FirstName</p>
+}
+
+
+<ul>
+    @foreach (User item in ViewData["Users"] as List<User>)
+    {
+        <li>@item.FirstName</li>
+    }
+</ul>

@@ -1,0 +1,20 @@
+﻿@using GettingData.Models
+@model List<User>
+
+
+<h2 style="text-align:center">Yeni Kullanıcı Ekleme Sayfası</h2>
+
+<ul>
+    @foreach (User item in Model)
+    {
+        <li>@item.FirstName</li>
+    }
+</ul>
+
+<h2>AŞAĞIDAN YENI KULLANICI EKLEYEBILIRSIN.</h2>
+
+<form method="post" action="/user/adduser">
+    <label for="name">İsim</label> <br />
+    <input type="text" id="name" name="firstname" /> <br />
+    <input type="submit" />
+</form>

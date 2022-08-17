@@ -1,0 +1,21 @@
+﻿@* MODEL ILE VERI AKTARMADA BIR VERIYI GONDERIYORDUK VE VIEW ILE KARSILIYORDUK. ilk başa @model ... koymak gibi  *@
+@* FAKAT VIEWBAG dinamik bir veri taşıma yöntemi olduğu için *@
+
+@using PassingData.Models
+
+<p>
+    Merhaba @ViewBag.UserName
+</p>
+
+
+<p>
+    Merhaba @ViewBag.User.LastName
+</p>
+
+
+<ul>
+    @foreach (User item in ViewBag.Users)
+    {
+        <li>@item.FirstName</li>
+    }
+</ul>
