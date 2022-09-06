@@ -1,0 +1,9 @@
+C:\Users\Metehan\Desktop\MVC\AutoMail\AutoMail\bin\Debug\AutoMail.exe.config
+C:\Users\Metehan\Desktop\MVC\AutoMail\AutoMail\bin\Debug\AutoMail.exe
+C:\Users\Metehan\Desktop\MVC\AutoMail\AutoMail\bin\Debug\AutoMail.pdb
+C:\Users\Metehan\Desktop\MVC\AutoMail\AutoMail\obj\Debug\AutoMail.csproj.AssemblyReference.cache
+C:\Users\Metehan\Desktop\MVC\AutoMail\AutoMail\obj\Debug\AutoMail.ProjectInstaller.resources
+C:\Users\Metehan\Desktop\MVC\AutoMail\AutoMail\obj\Debug\AutoMail.csproj.GenerateResource.cache
+C:\Users\Metehan\Desktop\MVC\AutoMail\AutoMail\obj\Debug\AutoMail.csproj.CoreCompileInputs.cache
+C:\Users\Metehan\Desktop\MVC\AutoMail\AutoMail\obj\Debug\AutoMail.exe
+C:\Users\Metehan\Desktop\MVC\AutoMail\AutoMail\obj\Debug\AutoMail.pdb
